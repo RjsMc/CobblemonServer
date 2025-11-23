@@ -12,9 +12,9 @@
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 1,
-    "totalBattleVictoryCount": 6,
+    "totalBattleVictoryCount": 9,
     "totalPvPBattleVictoryCount": 1,
-    "totalPvWBattleVictoryCount": 5,
+    "totalPvWBattleVictoryCount": 8,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 2,
@@ -26,7 +26,10 @@
     "totalDefeatedCounts": {
       "cobblemon:bramblin": 1,
       "cobblemon:cacnea": 1,
-      "cobblemon:wormadam": 1
+      "cobblemon:wormadam": 1,
+      "cobblemon:shinx": 1,
+      "cobblemon:rattata": 1,
+      "cobblemon:spinarak": 1
     },
     "aspectsCollected": {
       "cobblemon:maractus": [
