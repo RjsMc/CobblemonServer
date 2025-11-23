@@ -1,0 +1,55 @@
+{
+  "uuid": "1985f634-5429-4f31-bc3e-1f27b15686c3",
+  "starterPrompted": true,
+  "starterLocked": false,
+  "starterSelected": true,
+  "starterUUID": "acff3748-c0c1-4e59-b61c-5e17cec824a4",
+  "keyItems": [],
+  "battleTheme": "cobblemon:battle.pvp.default",
+  "extraData": {},
+  "advancementData": {
+    "totalCaptureCount": 6,
+    "totalEggsCollected": 0,
+    "totalEggsHatched": 0,
+    "totalEvolvedCount": 1,
+    "totalBattleVictoryCount": 8,
+    "totalPvPBattleVictoryCount": 0,
+    "totalPvWBattleVictoryCount": 8,
+    "totalPvNBattleVictoryCount": 0,
+    "totalShinyCaptureCount": 0,
+    "totalTradedCount": 2,
+    "totalTypeCaptureCounts": {
+      "dragon": 3,
+      "ground": 2,
+      "flying": 1,
+      "fire": 1,
+      "poison": 1,
+      "dark": 1,
+      "water": 1,
+      "ice": 1
+    },
+    "totalDefeatedCounts": {
+      "cobblemon:gastly": 4
+    },
+    "aspectsCollected": {
+      "cobblemon:braixen": [
+        "male"
+      ],
+      "cobblemon:gible": [
+        "female"
+      ],
+      "cobblemon:noibat": [
+        "female"
+      ],
+      "cobblemon:fuecoco": [
+        "male"
+      ],
+      "cobblemon:drapion": [
+        "male"
+      ],
+      "cobblemon:lapras": [
+        "male"
+      ]
+    }
+  }
+}

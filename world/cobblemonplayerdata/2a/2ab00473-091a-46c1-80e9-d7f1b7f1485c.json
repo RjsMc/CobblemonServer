@@ -2,23 +2,48 @@
   "uuid": "2ab00473-091a-46c1-80e9-d7f1b7f1485c",
   "starterPrompted": true,
   "starterLocked": false,
-  "starterSelected": false,
+  "starterSelected": true,
+  "starterUUID": "96c5ad9c-c691-4e10-b727-bbda3990709a",
   "keyItems": [],
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 0,
+    "totalCaptureCount": 4,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
-    "totalEvolvedCount": 0,
-    "totalBattleVictoryCount": 0,
-    "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 0,
+    "totalEvolvedCount": 1,
+    "totalBattleVictoryCount": 6,
+    "totalPvPBattleVictoryCount": 1,
+    "totalPvWBattleVictoryCount": 5,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
-    "totalTradedCount": 0,
-    "totalTypeCaptureCounts": {},
-    "totalDefeatedCounts": {},
-    "aspectsCollected": {}
+    "totalTradedCount": 2,
+    "totalTypeCaptureCounts": {
+      "grass": 2,
+      "dark": 2,
+      "fire": 2
+    },
+    "totalDefeatedCounts": {
+      "cobblemon:bramblin": 1,
+      "cobblemon:cacnea": 1,
+      "cobblemon:wormadam": 1
+    },
+    "aspectsCollected": {
+      "cobblemon:maractus": [
+        "male"
+      ],
+      "cobblemon:cacturne": [
+        "male"
+      ],
+      "cobblemon:fuecoco": [
+        "male"
+      ],
+      "cobblemon:houndour": [
+        "male"
+      ],
+      "cobblemon:houndoom": [
+        "male"
+      ]
+    }
   }
 }
