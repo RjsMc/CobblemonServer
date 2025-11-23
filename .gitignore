@@ -1,2 +1,4 @@
 world/
 *.sqlite
+world/
+*.sqlite
