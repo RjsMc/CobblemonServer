@@ -8,28 +8,56 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 6,
+    "totalCaptureCount": 42,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
-    "totalEvolvedCount": 1,
-    "totalBattleVictoryCount": 8,
+    "totalEvolvedCount": 4,
+    "totalBattleVictoryCount": 54,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 8,
+    "totalPvWBattleVictoryCount": 54,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
-    "totalTradedCount": 2,
+    "totalTradedCount": 3,
     "totalTypeCaptureCounts": {
-      "dragon": 3,
+      "dragon": 8,
       "ground": 2,
-      "flying": 1,
-      "fire": 1,
-      "poison": 1,
-      "dark": 1,
-      "water": 1,
-      "ice": 1
+      "flying": 5,
+      "fire": 3,
+      "poison": 7,
+      "dark": 4,
+      "water": 5,
+      "ice": 4,
+      "psychic": 4,
+      "normal": 4,
+      "ghost": 3,
+      "grass": 1,
+      "electric": 7,
+      "bug": 6
     },
     "totalDefeatedCounts": {
-      "cobblemon:gastly": 4
+      "cobblemon:gastly": 4,
+      "cobblemon:maractus": 1,
+      "cobblemon:bramblin": 1,
+      "cobblemon:cacnea": 2,
+      "cobblemon:exeggcute": 1,
+      "cobblemon:kilowattrel": 1,
+      "cobblemon:vivillon": 2,
+      "cobblemon:oricorio": 1,
+      "cobblemon:tarountula": 1,
+      "cobblemon:volbeat": 1,
+      "cobblemon:ariados": 1,
+      "cobblemon:ninjask": 1,
+      "cobblemon:cottonee": 1,
+      "cobblemon:eldegoss": 1,
+      "cobblemon:snover": 1,
+      "cobblemon:gogoat": 1,
+      "cobblemon:minior": 1,
+      "cobblemon:goomy": 1,
+      "cobblemon:ledian": 1,
+      "cobblemon:slowbro": 1,
+      "cobblemon:lickilicky": 1,
+      "cobblemon:zebstrika": 1,
+      "cobblemon:shinx": 1
     },
     "aspectsCollected": {
       "cobblemon:braixen": [
@@ -39,7 +67,8 @@
         "female"
       ],
       "cobblemon:noibat": [
-        "female"
+        "female",
+        "male"
       ],
       "cobblemon:fuecoco": [
         "male"
@@ -48,6 +77,101 @@
         "male"
       ],
       "cobblemon:lapras": [
+        "male"
+      ],
+      "cobblemon:solosis": [
+        "male"
+      ],
+      "cobblemon:cyclizar": [
+        "male"
+      ],
+      "cobblemon:raboot": [
+        "male"
+      ],
+      "cobblemon:dhelmise": [
+        "genderless"
+      ],
+      "cobblemon:malamar": [
+        "male"
+      ],
+      "cobblemon:abra": [
+        "male"
+      ],
+      "cobblemon:delphox": [
+        "male"
+      ],
+      "cobblemon:quaxly": [
+        "male"
+      ],
+      "cobblemon:deino": [
+        "female"
+      ],
+      "cobblemon:pikachu": [
+        "male",
+        "region-bias-alola"
+      ],
+      "cobblemon:raichu": [
+        "male",
+        "alolan"
+      ],
+      "cobblemon:vanillite": [
+        "male"
+      ],
+      "cobblemon:vanillish": [
+        "female",
+        "male"
+      ],
+      "cobblemon:spiritomb": [
+        "male"
+      ],
+      "cobblemon:shinx": [
+        "female",
+        "male"
+      ],
+      "cobblemon:blitzle": [
+        "male"
+      ],
+      "cobblemon:zebstrika": [
+        "male",
+        "female"
+      ],
+      "cobblemon:wailmer": [
+        "male"
+      ],
+      "cobblemon:oricorio": [
+        "female",
+        "sensu-style"
+      ],
+      "cobblemon:minccino": [
+        "female"
+      ],
+      "cobblemon:reuniclus": [
+        "male"
+      ],
+      "cobblemon:kingdra": [
+        "female"
+      ],
+      "cobblemon:clawitzer": [
+        "female",
+        "claw-left"
+      ],
+      "cobblemon:dragalge": [
+        "male"
+      ],
+      "cobblemon:yanmega": [
+        "male"
+      ],
+      "cobblemon:zweilous": [
+        "female"
+      ],
+      "cobblemon:eevee": [
+        "male"
+      ],
+      "cobblemon:venipede": [
+        "female",
+        "male"
+      ],
+      "cobblemon:pidgeot": [
         "male"
       ]
     }

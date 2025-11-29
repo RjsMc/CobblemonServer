@@ -1,5 +1,5 @@
-[02:38:12] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.18.1
-[02:38:12] [main/INFO]: Loading 151 mods:
+[13:18:38] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.18.1
+[13:18:39] [main/INFO]: Loading 151 mods:
 	- accessories 1.1.0-beta.52+1.21.1
 	- appleskin 3.0.6+mc1.21
 	- architectury 13.0.8
@@ -178,407 +178,404 @@
 	   \-- org_reflections_reflections 0.10.2
 	- yungscavebiomes 1.21.1-Fabric-3.1.1
 	   \-- org_reflections_reflections 0.10.2
-[02:38:12] [main/INFO]: Prelaunching AutoModpack...
-[02:38:13] [main/INFO]: Loaded config! took 16ms
-[02:38:13] [main/INFO]: AutoModpack self-updater is disabled in server config.
-[02:38:13] [main/INFO]: AutoModpack prelaunched! took 51ms
-[02:38:13] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/rjsmc/minecraft/CobblemonServer/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[02:38:13] [main/INFO]: Compatibility level set to JAVA_17
-[02:38:13] [main/INFO]: Compatibility level set to JAVA_21
-[02:38:13] [main/WARN]: Reference map 'diagonalfences.common.refmap.json' for diagonalfences.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:38:13] [main/WARN]: Reference map 'diagonalfences.fabric.refmap.json' for diagonalfences.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:38:13] [main/WARN]: Reference map 'diagonalwalls.common.refmap.json' for diagonalwalls.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:38:13] [main/WARN]: Reference map 'diagonalwalls.fabric.refmap.json' for diagonalwalls.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:38:13] [main/WARN]: Reference map 'diagonalwindows.common.refmap.json' for diagonalwindows.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:38:13] [main/WARN]: Reference map 'diagonalwindows.fabric.refmap.json' for diagonalwindows.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:38:13] [main/WARN]: Reference map 'durabilitytooltip.mixins.refmap.json' for durabilitytooltip.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:38:13] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:38:13] [main/WARN]: Reference map 'leavesbegone.fabric.refmap.json' for leavesbegone.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:38:13] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[02:38:13] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[02:38:13] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[02:38:13] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[02:38:13] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[02:38:13] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[02:38:13] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[02:38:13] [main/INFO]: Loaded configuration file for Lithium: 149 options available, 0 override(s) found
-[02:38:13] [main/INFO]: Loaded configuration file for ModernFix 5.25.1+mc1.21.1: 65 options available, 0 override(s) found
-[02:38:13] [main/INFO]: Applying Nashorn fix
-[02:38:13] [main/WARN]: Reference map 'stoneworks.common.refmap.json' for stoneworks.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:38:13] [main/WARN]: Reference map 'stoneworks.fabric.refmap.json' for stoneworks.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:38:13] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:38:13] [main/WARN]: Reference map 'tradingpost.fabric.refmap.json' for tradingpost.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:38:13] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:38:13] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[02:38:13] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
-[02:38:13] [main/WARN]: Error loading class: net/minecraft/class_4224 (java.lang.ClassNotFoundException: net/minecraft/class_4224)
-[02:38:13] [main/WARN]: @Mixin target net.minecraft.class_4224 was not found mixins.cobblemon-common.json:ChannelMixin from mod cobblemon
-[02:38:13] [main/WARN]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel/adorn/block/variant/BlockVariantSets)
-[02:38:13] [main/WARN]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker from mod cobblemon
-[02:38:13] [main/WARN]: Error loading class: net/minecraft/class_1140 (java.lang.ClassNotFoundException: net/minecraft/class_1140)
-[02:38:13] [main/WARN]: @Mixin target net.minecraft.class_1140 was not found mixins.cobblemon-fabric.json:FabricSoundEngineMixin from mod cobblemon
-[02:38:13] [main/WARN]: Error loading class: com/electronwill/nightconfig/core/io/IoUtils (java.lang.ClassNotFoundException: com/electronwill/nightconfig/core/io/IoUtils)
-[02:38:14] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
-[02:38:14] [main/WARN]: @Mixin target net.minecraft.class_525 was not found moonlight.mixins.json:CreateWorldScreenMixin from mod moonlight
-[02:38:14] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
-[02:38:14] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
-[02:38:14] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[02:38:14] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[02:38:14] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
-[02:38:14] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
-[02:38:14] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
-[02:38:14] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[02:38:16] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[02:38:18] [main/INFO]: Vanilla bootstrap took 3749 milliseconds
-[02:38:19] [main/INFO]: Registering Listeners!
-[02:38:19] [main/INFO]: Launching AutoModpack...
-[02:38:19] [main/INFO]: Generating modpack...
-[02:38:19] [main/INFO]: Syncing main...
-[02:38:19] [AutoModpackCreation-3/INFO]: generated content for /mods/TradingPost-v21.1.1-1.21.1-Fabric.jar
-[02:38:19] [AutoModpackCreation-5/INFO]: generated content for /mods/sound-physics-remastered-fabric-1.21.1-1.4.10.jar
-[02:38:19] [AutoModpackCreation-9/INFO]: generated content for /mods/EasyAnvils-v21.1.0-1.21.1-Fabric.jar
-[02:38:19] [AutoModpackCreation-10/INFO]: generated content for /mods/DiagonalFences-v21.1.1-1.21.1-Fabric.jar
-[02:38:19] [AutoModpackCreation-6/INFO]: generated content for /mods/YungsBetterOceanMonuments-1.21.1-Fabric-4.1.2.jar
-[02:38:19] [AutoModpackCreation-2/INFO]: generated content for /mods/PuzzlesLib-v21.1.39-1.21.1-Fabric.jar
-[02:38:19] [AutoModpackCreation-5/INFO]: generated content for /mods/YungsBetterCaves-1.21.1-Fabric-3.1.4.jar
-[02:38:19] [AutoModpackCreation-10/INFO]: generated content for /mods/supermartijn642configlib-1.1.8-fabric-mc1.21.jar
-[02:38:19] [AutoModpackCreation-4/INFO]: generated content for /mods/sophisticatedstorage-1.21.1-1.3.7.8.135.jar
-[02:38:19] [AutoModpackCreation-11/INFO]: generated content for /mods/ImmediatelyFast-Fabric-1.6.7+1.21.1.jar
-[02:38:19] [AutoModpackCreation-9/INFO]: generated content for /mods/YungsBetterMineshafts-1.21.1-Fabric-5.1.1.jar
-[02:38:19] [AutoModpackCreation-13/INFO]: generated content for /mods/architectury-13.0.8-fabric.jar
-[02:38:19] [AutoModpackCreation-6/INFO]: generated content for /mods/lootr-fabric-1.21-1.10.35.91.jar
-[02:38:19] [AutoModpackCreation-12/INFO]: generated content for /mods/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar
-[02:38:19] [AutoModpackCreation-5/INFO]: generated content for /mods/veinminer-enchant-2.3.0.jar
-[02:38:19] [AutoModpackCreation-10/INFO]: generated content for /mods/MouseTweaks-fabric-mc1.21-2.26.jar
-[02:38:19] [AutoModpackCreation-4/INFO]: generated content for /mods/krypton-0.2.8.jar
-[02:38:19] [AutoModpackCreation-13/INFO]: generated content for /mods/Nullscape_1.21.x_v1.2.14.jar
-[02:38:19] [AutoModpackCreation-3/INFO]: generated content for /mods/lambdynamiclights-4.8.6+1.21.1.jar
-[02:38:19] [AutoModpackCreation-8/INFO]: generated content for /mods/sophisticatedcore-1.21.1-1.2.9.20.164.jar
-[02:38:19] [AutoModpackCreation-11/INFO]: generated content for /mods/modmenu-11.0.3.jar
-[02:38:19] [AutoModpackCreation-9/INFO]: generated content for /mods/cloth-config-15.0.140-fabric.jar
-[02:38:19] [AutoModpackCreation-6/INFO]: generated content for /mods/appleskin-fabric-mc1.21-3.0.6.jar
-[02:38:19] [AutoModpackCreation-4/INFO]: generated content for /mods/veinminer-fabric-2.4.2.jar
-[02:38:19] [AutoModpackCreation-3/INFO]: generated content for /mods/EasyMagic-v21.1.4-1.21.1-Fabric.jar
-[02:38:19] [AutoModpackCreation-11/INFO]: generated content for /mods/DiagonalWalls-v21.1.2-1.21.1-Fabric.jar
-[02:38:19] [AutoModpackCreation-13/INFO]: generated content for /mods/geckolib-fabric-1.21.1-4.8.2.jar
-[02:38:19] [AutoModpackCreation-8/INFO]: generated content for /mods/YungsBetterStrongholds-1.21.1-Fabric-5.1.3.jar
-[02:38:19] [AutoModpackCreation-9/INFO]: generated content for /mods/trinkets-3.10.0.jar
-[02:38:19] [AutoModpackCreation-5/INFO]: generated content for /mods/sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar
-[02:38:19] [AutoModpackCreation-12/INFO]: generated content for /mods/owo-lib-0.12.15.4+1.21.jar
-[02:38:19] [AutoModpackCreation-3/INFO]: generated content for /mods/silk-all-1.10.7.jar
-[02:38:19] [AutoModpackCreation-10/INFO]: generated content for /mods/modernfix-fabric-5.25.1+mc1.21.1.jar
-[02:38:19] [AutoModpackCreation-5/INFO]: generated content for /mods/accessories-fabric-1.1.0-beta.52+1.21.1.jar
-[02:38:19] [AutoModpackCreation-12/INFO]: generated content for /mods/XaerosWorldMap_1.39.12_Fabric_1.21.jar
-[02:38:19] [AutoModpackCreation-2/INFO]: generated content for /mods/lithium-fabric-0.15.1+mc1.21.1.jar
-[02:38:19] [AutoModpackCreation-5/INFO]: generated content for /mods/YungsBetterWitchHuts-1.21.1-Fabric-4.1.1.jar
-[02:38:19] [AutoModpackCreation-9/INFO]: generated content for /mods/Terralith_1.21.x_v2.5.8.jar
-[02:38:19] [AutoModpackCreation-12/INFO]: generated content for /mods/YungsBetterNetherFortresses-1.21.1-Fabric-3.1.5.jar
-[02:38:19] [AutoModpackCreation-3/INFO]: generated content for /mods/LeavesBeGone-v21.1.0-1.21.1-Fabric.jar
-[02:38:19] [AutoModpackCreation-11/INFO]: generated content for /mods/RoughlyEnoughItems-16.0.799-fabric.jar
-[02:38:19] [AutoModpackCreation-9/INFO]: generated content for /mods/VisualWorkbench-v21.1.1-1.21.1-Fabric.jar
-[02:38:19] [AutoModpackCreation-11/INFO]: generated content for /mods/Clumps-fabric-1.21.1-19.0.0.1.jar
-[02:38:19] [AutoModpackCreation-10/INFO]: generated content for /mods/YungsBetterJungleTemples-1.21.1-Fabric-3.1.2.jar
-[02:38:19] [AutoModpackCreation-3/INFO]: generated content for /mods/YungsBetterDungeons-1.21.1-Fabric-5.1.4.jar
-[02:38:19] [AutoModpackCreation-11/INFO]: generated content for /mods/DiagonalWindows-v21.1.1-1.21.1-Fabric.jar
-[02:38:19] [AutoModpackCreation-2/INFO]: generated content for /mods/PuzzlesLib-v21.1.39-1.21.1-Fabric (1).jar
-[02:38:19] [AutoModpackCreation-10/INFO]: generated content for /mods/YungsBetterDesertTemples-1.21.1-Fabric-4.1.5.jar
-[02:38:19] [AutoModpackCreation-12/INFO]: generated content for /mods/iris-fabric-1.8.8+mc1.21.1.jar
-[02:38:19] [AutoModpackCreation-2/INFO]: generated content for /mods/entityculling-fabric-1.9.3-mc1.21.1.jar
-[02:38:19] [AutoModpackCreation-7/INFO]: generated content for /mods/mega_showdown-fabric-1.2+1.7+1.21.1.jar
-[02:38:19] [AutoModpackCreation-7/INFO]: generated content for /mods/notenoughanimations-fabric-1.10.6-mc1.21.1.jar
-[02:38:19] [AutoModpackCreation-2/INFO]: generated content for /mods/Xaeros_Minimap_25.2.10_Fabric_1.21.jar
-[02:38:19] [AutoModpackCreation-12/INFO]: generated content for /mods/sodium-fabric-0.6.13+mc1.21.1.jar
-[02:38:19] [AutoModpackCreation-2/INFO]: generated content for /mods/durabilitytooltip-1.1.6-fabric-mc1.21.jar
-[02:38:19] [AutoModpackCreation-7/INFO]: generated content for /mods/Stoneworks-v21.1.0-1.21.1-Fabric.jar
-[02:38:19] [AutoModpackCreation-4/INFO]: generated content for /mods/YungsCaveBiomes-1.21.1-Fabric-3.1.1 (1).jar
-[02:38:19] [AutoModpackCreation-7/INFO]: generated content for /mods/moonlight-1.21-2.26.5-fabric.jar
-[02:38:19] [AutoModpackCreation-4/INFO]: generated content for /mods/cobblemon-additions-4.0.1.jar
-[02:38:19] [AutoModpackCreation-7/INFO]: generated content for /mods/fabric-api-0.116.7+1.21.1.jar
-[02:38:19] [AutoModpackCreation-8/INFO]: generated content for /mods/YungsCaveBiomes-1.21.1-Fabric-3.1.1.jar
-[02:38:19] [AutoModpackCreation-7/INFO]: generated content for /mods/ferritecore-7.0.2-hotfix-fabric.jar
-[02:38:19] [AutoModpackCreation-8/INFO]: generated content for /mods/XaeroZoomout-Fabric-1.21-2.0.0.jar
-[02:38:19] [AutoModpackCreation-8/INFO]: generated content for /mods/YungsApi-1.21.1-Fabric-5.1.6.jar
-[02:38:19] [AutoModpackCreation-8/INFO]: generated content for /mods/DistantHorizons-2.3.6-b-1.21.1-fabric-neoforge.jar
-[02:38:19] [AutoModpackCreation-6/INFO]: generated content for /mods/Cobblemon-fabric-1.7.0+1.21.1.jar
-[02:38:19] [AutoModpackCreation-6/INFO]: generated content for /mods/TerraBlender-fabric-1.21.1-4.1.0.8.jar
-[02:38:19] [AutoModpackCreation-6/INFO]: generated content for /mods/continuity-3.0.0+1.21.jar
-[02:38:19] [main/INFO]: Modpack generated! took 213ms
-[02:38:19] [main/INFO]: AutoModpack launched! took 247ms
-[02:38:19] [main/INFO]: Reflections took 20 ms to scan 1 urls, producing 0 keys and 0 values
-[02:38:19] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 0 keys and 0 values
-[02:38:19] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 2 values
-[02:38:19] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[02:38:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[02:38:19] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[02:38:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[02:38:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[02:38:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[02:38:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[02:38:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:38:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[02:38:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[02:38:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[02:38:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[02:38:19] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[02:38:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[02:38:19] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[02:38:19] [main/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
-[02:38:19] [main/INFO]: Launching Cobblemon 1.7.0 
-[02:38:19] [main/INFO]: Booting FabricPermissionValidator, permissions will be checked using fabric-permissions-api, see https://github.com/lucko/fabric-permissions-api
-[02:38:20] [main/ERROR]: No data fixer registered for cobblemon:pokemon
-[02:38:20] [main/ERROR]: No data fixer registered for cobblemon:empty_pokeball
-[02:38:20] [main/ERROR]: No data fixer registered for cobblemon:boat
-[02:38:20] [main/ERROR]: No data fixer registered for cobblemon:chest_boat
-[02:38:20] [main/ERROR]: No data fixer registered for cobblemon:poke_bobber
-[02:38:20] [main/ERROR]: No data fixer registered for cobblemon:generic_bedrock
-[02:38:20] [main/ERROR]: No data fixer registered for cobblemon:npc
-[02:38:20] [main/INFO]: Starting the Best Spawner...
-[02:38:20] [main/INFO]: Loaded 7 spawning condition types.
-[02:38:20] [main/INFO]: Loaded 6 spawnable position types.
-[02:38:20] [main/INFO]: Loaded 3 spawn detail types.
-[02:38:20] [Cobblemon Showdown/INFO]: Starting showdown service...
-[02:38:20] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/data/moves.js
-[02:38:20] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/sim/battle-actions.js
-[02:38:20] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/sim/pokemons.js
-[02:38:20] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/data/abilities.js
-[02:38:20] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/sim/side.js
-[02:38:20] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/data/conditions.js
-[02:38:20] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/index.js
-[02:38:20] [Cobblemon Showdown/INFO]: All files are ready!
-[02:38:21] [Cobblemon Showdown/INFO]: Showdown has been started!
-[02:38:21] [main/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
-[02:38:21] [main/INFO]: Registered the mega_showdown:showdown/conditions registry
-[02:38:21] [main/INFO]: Registered the mega_showdown:showdown/held_items registry
-[02:38:21] [main/INFO]: Registered the mega_showdown:showdown/typecharts registry
-[02:38:21] [main/INFO]: Registered the mega_showdown:showdown/scripts registry
-[02:38:21] [main/INFO]: Registered the cobblemon:molang registry
-[02:38:21] [main/INFO]: Registered the cobblemon:species_features registry
-[02:38:21] [main/INFO]: Registered the cobblemon:global_species_features registry
-[02:38:21] [main/INFO]: Registered the cobblemon:species_feature_assignments registry
-[02:38:21] [main/INFO]: Registered the cobblemon:action_effects registry
-[02:38:21] [main/INFO]: Registered the cobblemon:moves registry
-[02:38:21] [main/INFO]: Registered the cobblemon:abilities registry
-[02:38:21] [main/INFO]: Registered the cobblemon:behaviours registry
-[02:38:21] [main/INFO]: Registered the cobblemon:species registry
-[02:38:21] [main/INFO]: Registered the cobblemon:species_additions registry
-[02:38:21] [main/INFO]: Registered the cobblemon:pokeballs registry
-[02:38:21] [main/INFO]: Registered the cobblemon:properties_tab_completion registry
-[02:38:21] [main/INFO]: Registered the cobblemon:spawn_detail_presets registry
-[02:38:21] [main/INFO]: Registered the cobblemon:spawn_rules registry
-[02:38:21] [main/INFO]: Registered the cobblemon:mechanics registry
-[02:38:21] [main/INFO]: Registered the cobblemon:bag_items registry
-[02:38:21] [main/INFO]: Registered the cobblemon:held_items registry
-[02:38:21] [main/INFO]: Registered the cobblemon:dialogues registry
-[02:38:21] [main/INFO]: Registered the cobblemon:natural_materials registry
-[02:38:21] [main/INFO]: Registered the cobblemon:fossils registry
-[02:38:21] [main/INFO]: Registered the cobblemon:npc_preset registry
-[02:38:21] [main/INFO]: Registered the cobblemon:npc registry
-[02:38:21] [main/INFO]: Registered the cobblemon:dex_entries registry
-[02:38:21] [main/INFO]: Registered the cobblemon:dex_entry_additions registry
-[02:38:21] [main/INFO]: Registered the cobblemon:dexes registry
-[02:38:21] [main/INFO]: Registered the cobblemon:dex_additions registry
-[02:38:21] [main/INFO]: Registered the cobblemon:cosmetic_items registry
-[02:38:21] [main/INFO]: Registered the cobblemon:callbacks registry
-[02:38:21] [main/INFO]: Registered the cobblemon:unlockable_pc_box_wallpapers registry
-[02:38:21] [main/INFO]: Registered the cobblemon:marks registry
-[02:38:21] [main/INFO]: Registered the cobblemon:starters registry
-[02:38:21] [main/INFO]: Registered the cobblemon:spawn_pool_world registry
-[02:38:21] [main/INFO]: Registered the cobblemon:pokerods registry
-[02:38:21] [main/INFO]: Registered the cobblemon:berries registry
-[02:38:21] [main/INFO]: Registered the cobblemon:seasonings registry
-[02:38:22] [main/INFO]: Registered the cobblemon:pokemon_interactions registry
-[02:38:22] [main/INFO]: Registered the cobblemon:spawn_bait_effects registry
-[02:38:22] [main/INFO]: Registered the cobblemon:ride_settings registry
-[02:38:22] [main/WARN]: Resource root not found: ../build/resources/main/data
-[02:38:22] [main/INFO]: Datagen: LootTableScanner disabled (set enableLootScan=true to enable).
-[02:38:22] [main/INFO]: Mod compatibility check results: {cobblenav=false, sophisticatedbackpacks=true, waystones=false, cobbledollars=false, travelersbackpack=false}
-[02:38:22] [main/INFO]: Cobblemon Additions mod initialized successfully.
-[02:38:22] [main/INFO]: Constructing common components for diagonalblocks:main
-[02:38:22] [main/INFO]: Constructing common components for diagonalfences:main
-[02:38:22] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 21ms
-[02:38:22] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 21ms
-[02:38:22] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 59ms
-[02:38:22] [main/INFO]: Constructing common components for diagonalwalls:main
-[02:38:22] [main/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=0.0,ExtensionWidth=3.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 13ms
-[02:38:22] [main/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=0.0,ExtensionWidth=3.0,NodeTop=0.0,ExtensionBottom=0.0,ExtensionTop=14.0] took 38ms
-[02:38:22] [main/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=4.0,ExtensionWidth=3.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=14.0] took 43ms
-[02:38:22] [main/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=4.0,ExtensionWidth=3.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 14ms
-[02:38:22] [main/INFO]: Constructing common components for diagonalwindows:main
-[02:38:22] [main/INFO]: Constructing shapes for DiagonalStainedGlassPaneBlock[NodeWidth=1.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 11ms
-[02:38:22] [main/INFO]: Constructing common components for easyanvils:main
-[02:38:22] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
-[02:38:22] [main/INFO]: Constructing common components for easymagic:main
-[02:38:22] [main/INFO]: Dispatching loading event for config easymagic-common.toml
-[02:38:22] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
-[02:38:22] [main/INFO]: Constructing common components for leavesbegone:main
-[02:38:22] [main/INFO]: Registering C2S receiver with id mega_showdown:mega_evo
-[02:38:22] [main/INFO]: Registering C2S receiver with id mega_showdown:ultra_burst
-[02:38:22] [main/INFO]: Registering C2S receiver with id mega_showdown:secret_sword_move_swap
-[02:38:22] [main/INFO]: Loaded config moonlight-common.json
-[02:38:22] [main/INFO]: chyzman: No sound or Ender Dragon leakage. Although Ender Dragon sound leakage is still a thing
-[02:38:23] [main/INFO]: Constructing common components for puzzleslib:main
-[02:38:23] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[02:38:23] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
-[02:38:23] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
-[02:38:23] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedbackpacks] for REIPlugin
-[02:38:23] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedcore] for REIPlugin
-[02:38:23] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedstorage] for REIPlugin
-[02:38:23] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
-[02:38:23] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
-[02:38:23] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedbackpacks] for REIServerPlugin
-[02:38:23] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedcore] for REIServerPlugin
-[02:38:23] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedstorage] for REIServerPlugin
-[02:38:23] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
-[02:38:23] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
-[02:38:23] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[02:38:23] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[02:38:23] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[02:38:23] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[02:38:23] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
-[02:38:23] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[02:38:23] [main/INFO]: Initializing Silk
-[02:38:23] [main/ERROR]: No data fixer registered for 
-[02:38:23] [main/INFO]: Constructing common components for stoneworks:main
-[02:38:23] [main/INFO]: Dispatching loading event for config stoneworks-common.toml
-[02:38:23] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[02:38:23] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[02:38:23] [main/INFO]: Registered region yungscavebiomes:overworld to index 1 for type OVERWORLD
-[02:38:23] [main/INFO]: Constructing common components for tradingpost:main
-[02:38:23] [main/INFO]: Veinminer Version: 2.4.2 (fabric)
-[02:38:24] [main/INFO]: Veinminer-Enchantment Version: 2.5.0 (fabric)
-[02:38:24] [main/INFO]: Constructing common components for visualworkbench:main
-[02:38:24] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
-[02:38:24] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[02:38:24] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[02:38:24] [main/INFO]: Reflections took 15 ms to scan 1 urls, producing 5 keys and 66 values
-[02:38:24] [main/INFO]: Reflections took 14 ms to scan 1 urls, producing 5 keys and 66 values
-[02:38:24] [main/INFO]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
-[02:38:24] [main/INFO]: Distant Horizons, Version: 2.3.6-b
-[02:38:24] [main/INFO]: Registering Fabric Server Events
-[02:38:24] [main/INFO]: Distant Horizons server Initialized, adding event subscribers...
-[02:38:24] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[02:38:24] [main/INFO]: Initialized block sets in 14ms
-[02:38:24] [main/INFO]: Initialized color sets in 22ms
-[02:38:24] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[02:38:24] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[02:38:24] [main/ERROR]: Registry 'moonlight:world_saved_data_type' was empty after loading
-[02:38:24] [main/ERROR]: Registry 'moonlight:custom_map_data_types' was empty after loading
-[02:38:24] [DefaultDispatcher-worker-2/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
-[02:38:24] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:38:24] [main/INFO]: Found new data pack file/bca_fix.zip, loading it automatically
-[02:38:25] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/bca:general/kitchen - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: cobblemon:braised_vivichoke
-[02:38:26] [Worker-Main-7/ERROR]: Couldn't load tag cobblemon:recipe_filters/colour_seasoning as it is missing following references: #cobblemon:recipe_filters/poke_puff_seasoner (from cobblemon)
-[02:38:26] [main/INFO]: Loaded 3147 recipes
-[02:38:26] [main/INFO]: Loaded 3315 advancements
-[02:38:26] [main/INFO]: Loaded 10 server scripts and 1 client scripts
-[02:38:28] [main/INFO]: Loaded 936 moves
-[02:38:28] [main/INFO]: Loaded 314 abilities
-[02:38:28] [main/INFO]: Loaded 47 entity behaviours
-[02:38:29] [main/INFO]: Finished additions
-[02:38:29] [cobblemon Datafixer Bootstrap/INFO]: 4 Datafixer optimizations took 34 milliseconds
-[02:38:30] [main/INFO]: Loaded 1025 Pokémon species
-[02:38:30] [main/INFO]: Loaded 27 spawn detail presets.
-[02:38:30] [main/INFO]: Starting dummy Showdown battle to force it to pre-load data.
-[02:38:30] [main/INFO]: Imported 266 held item IDs from showdown
-[02:38:30] [main/INFO]: Loaded 15 fossils
-[02:38:30] [main/ERROR]: Invalid path in mod resource-pack cobblemon: cobblemon:dex_entry_additions/README.md, ignoring
-[02:38:31] [main/ERROR]: Invalid path in mod resource-pack cobblemon: cobblemon:dex_additions/README.md, ignoring
-[02:38:31] [main/INFO]: Loaded 6 callbacks and 0 client callbacks
-[02:38:31] [main/INFO]: Loaded 168 marks
-[02:38:31] [main/INFO]: Loaded 70 berries
-[02:38:31] [main/INFO]: Loaded 137 Pokémon interaction sets
-[02:38:31] [main/INFO]: [REI] ****************************************
-[02:38:31] [main/INFO]: [REI] REIPlugin starting main-reload for START.
-[02:38:31] [main/INFO]: [REI] Plugins (6):
-[02:38:31] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[02:38:31] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[02:38:31] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
-[02:38:31] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
-[02:38:31] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
-[02:38:31] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[02:38:31] [main/INFO]: [REI] ****************************************
-[02:38:31] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
-[02:38:31] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
-[02:38:31] [main/INFO]: [REI] Plugins (6):
-[02:38:31] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[02:38:31] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[02:38:31] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
-[02:38:31] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
-[02:38:31] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
-[02:38:31] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[02:38:31] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
-[02:38:31] [main/INFO]: [REI] REIPlugin finished post-reload for START in 1.270 ms, totaling 25.96 ms.
-[02:38:31] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 560.0 μs, totaling 4.619 ms.
-[02:38:31] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-[02:38:31] [main/INFO]: [REI] REIPlugin starting main-reload for END.
-[02:38:31] [main/INFO]: [REI] Plugins (6):
-[02:38:31] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[02:38:31] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[02:38:31] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
-[02:38:31] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
-[02:38:31] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
-[02:38:31] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[02:38:31] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-[02:38:31] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
-[02:38:31] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
-[02:38:31] [main/INFO]: [REI] Plugins (6):
-[02:38:31] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[02:38:31] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[02:38:31] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
-[02:38:31] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
-[02:38:31] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
-[02:38:31] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[02:38:31] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
-[02:38:31] [main/INFO]: [REI] REIPlugin finished post-reload for END in 845.0 μs, totaling 21.04 ms.
-[02:38:31] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 556.2 μs, totaling 5.260 ms.
-[02:38:31] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: cobblemon:mint_leaf, mega_showdown:rotom_appliances
-[02:38:31] [main/WARN]: Initial datapack load took 7.213 s
-[02:38:32] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[02:38:32] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[02:38:32] [main/INFO]: Applied 2614 biome modifications to 165 of 165 new biomes in 32.23 ms
-[02:38:32] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
-[02:38:32] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
-[02:38:32] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
-[02:38:32] [Server thread/INFO]: Dispatching loading event for config leavesbegone-server.toml
-[02:38:32] [Server thread/INFO]: Dispatching loading event for config tradingpost-server.toml
-[02:38:32] [Server thread/INFO]: Initialising config for [DistantHorizons]
-[02:38:32] [Server thread/INFO]: [DistantHorizons] Config initialised
-[02:38:32] [Server thread/INFO]: Running Delayed setup...
-[02:38:32] [Server thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
-[02:38:32] [Server thread/INFO]: Checking for Distant Horizons update
-[02:38:32] [Server thread/INFO]: Distant Horizons already up to date.
-[02:38:32] [Server thread/INFO]: Distant Horizons server Initialized at 
-[02:38:32] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
-[02:38:32] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[02:38:32] [Server thread/INFO]: Loading properties
-[02:38:32] [Server thread/INFO]: Default game type: SURVIVAL
-[02:38:32] [Server thread/INFO]: Generating keypair
-[02:38:32] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:38:32] [Server thread/INFO]: Using epoll channel type
-[02:38:32] [Server thread/INFO]: Preparing level "world"
-[02:38:33] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[./world/data]...
-[02:38:33] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
-[02:38:33] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
-[02:38:33] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
-[02:38:33] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[./world/DIM1/data]...
-[02:38:33] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
-[02:38:33] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
-[02:38:33] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/data;./world/DIM1/data)]].
-[02:38:33] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[./world/DIM-1/data]...
-[02:38:33] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
-[02:38:33] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
-[02:38:33] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/data;./world/DIM-1/data;./world/DIM1/data)]].
-[02:38:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:38:33] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
-[02:38:34] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[02:38:34] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[02:38:34] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[02:38:34] [Server thread/INFO]: Time elapsed: 1440 ms
-[02:38:34] [Server thread/INFO]: Done (1.935s)! For help, type "help"
-[02:38:34] [Server thread/WARN]: Certificate fingerprint: 4675556bd44956a03ffbccbb3cf5862dba00818b145eee9a848a9b8f1eca427a
-[02:38:34] [Server thread/INFO]: Hosting modpack on Minecraft port
-[02:38:34] [Server thread/WARN]: Dedicated server took 22.91 seconds to load
-[02:38:34] [Server thread/ERROR]: Couldn't load server icon
+[13:18:39] [main/INFO]: Prelaunching AutoModpack...
+[13:18:39] [main/INFO]: Loaded config! took 24ms
+[13:18:39] [main/INFO]: AutoModpack self-updater is disabled in server config.
+[13:18:39] [main/INFO]: AutoModpack prelaunched! took 56ms
+[13:18:39] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/rjsmc/minecraft/CobblemonServer/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[13:18:39] [main/INFO]: Compatibility level set to JAVA_17
+[13:18:39] [main/INFO]: Compatibility level set to JAVA_21
+[13:18:39] [main/WARN]: Reference map 'diagonalfences.common.refmap.json' for diagonalfences.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:18:39] [main/WARN]: Reference map 'diagonalfences.fabric.refmap.json' for diagonalfences.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:18:39] [main/WARN]: Reference map 'diagonalwalls.common.refmap.json' for diagonalwalls.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:18:39] [main/WARN]: Reference map 'diagonalwalls.fabric.refmap.json' for diagonalwalls.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:18:39] [main/WARN]: Reference map 'diagonalwindows.common.refmap.json' for diagonalwindows.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:18:39] [main/WARN]: Reference map 'diagonalwindows.fabric.refmap.json' for diagonalwindows.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:18:39] [main/WARN]: Reference map 'durabilitytooltip.mixins.refmap.json' for durabilitytooltip.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:18:39] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:18:39] [main/WARN]: Reference map 'leavesbegone.fabric.refmap.json' for leavesbegone.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:18:39] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[13:18:39] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[13:18:39] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[13:18:39] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[13:18:39] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[13:18:39] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[13:18:39] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[13:18:39] [main/INFO]: Loaded configuration file for Lithium: 149 options available, 0 override(s) found
+[13:18:39] [main/INFO]: Loaded configuration file for ModernFix 5.25.1+mc1.21.1: 65 options available, 0 override(s) found
+[13:18:39] [main/INFO]: Applying Nashorn fix
+[13:18:39] [main/WARN]: Reference map 'stoneworks.common.refmap.json' for stoneworks.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:18:39] [main/WARN]: Reference map 'stoneworks.fabric.refmap.json' for stoneworks.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:18:39] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:18:39] [main/WARN]: Reference map 'tradingpost.fabric.refmap.json' for tradingpost.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:18:39] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:18:39] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[13:18:39] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
+[13:18:39] [main/WARN]: Error loading class: net/minecraft/class_4224 (java.lang.ClassNotFoundException: net/minecraft/class_4224)
+[13:18:39] [main/WARN]: @Mixin target net.minecraft.class_4224 was not found mixins.cobblemon-common.json:ChannelMixin from mod cobblemon
+[13:18:39] [main/WARN]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel/adorn/block/variant/BlockVariantSets)
+[13:18:39] [main/WARN]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker from mod cobblemon
+[13:18:39] [main/WARN]: Error loading class: net/minecraft/class_1140 (java.lang.ClassNotFoundException: net/minecraft/class_1140)
+[13:18:39] [main/WARN]: @Mixin target net.minecraft.class_1140 was not found mixins.cobblemon-fabric.json:FabricSoundEngineMixin from mod cobblemon
+[13:18:40] [main/WARN]: Error loading class: com/electronwill/nightconfig/core/io/IoUtils (java.lang.ClassNotFoundException: com/electronwill/nightconfig/core/io/IoUtils)
+[13:18:40] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[13:18:40] [main/WARN]: @Mixin target net.minecraft.class_525 was not found moonlight.mixins.json:CreateWorldScreenMixin from mod moonlight
+[13:18:40] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[13:18:40] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[13:18:40] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[13:18:40] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[13:18:40] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[13:18:40] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
+[13:18:40] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
+[13:18:40] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[13:18:42] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[13:18:44] [main/INFO]: Vanilla bootstrap took 3767 milliseconds
+[13:18:45] [main/INFO]: Registering Listeners!
+[13:18:45] [main/INFO]: Launching AutoModpack...
+[13:18:45] [main/INFO]: Generating modpack...
+[13:18:45] [main/INFO]: Syncing main...
+[13:18:45] [AutoModpackCreation-4/INFO]: generated content for /mods/krypton-0.2.8.jar
+[13:18:45] [AutoModpackCreation-7/INFO]: generated content for /mods/notenoughanimations-fabric-1.10.6-mc1.21.1.jar
+[13:18:45] [AutoModpackCreation-6/INFO]: generated content for /mods/lootr-fabric-1.21-1.10.35.91.jar
+[13:18:45] [AutoModpackCreation-8/INFO]: generated content for /mods/YungsBetterStrongholds-1.21.1-Fabric-5.1.3.jar
+[13:18:45] [AutoModpackCreation-2/INFO]: generated content for /mods/PuzzlesLib-v21.1.39-1.21.1-Fabric.jar
+[13:18:45] [AutoModpackCreation-13/INFO]: generated content for /mods/architectury-13.0.8-fabric.jar
+[13:18:45] [AutoModpackCreation-5/INFO]: generated content for /mods/YungsBetterCaves-1.21.1-Fabric-3.1.4.jar
+[13:18:45] [AutoModpackCreation-4/INFO]: generated content for /mods/veinminer-fabric-2.4.2.jar
+[13:18:45] [AutoModpackCreation-12/INFO]: generated content for /mods/owo-lib-0.12.15.4+1.21.jar
+[13:18:45] [AutoModpackCreation-2/INFO]: generated content for /mods/lithium-fabric-0.15.1+mc1.21.1.jar
+[13:18:45] [AutoModpackCreation-6/INFO]: generated content for /mods/appleskin-fabric-mc1.21-3.0.6.jar
+[13:18:45] [AutoModpackCreation-9/INFO]: generated content for /mods/YungsBetterMineshafts-1.21.1-Fabric-5.1.1.jar
+[13:18:45] [AutoModpackCreation-11/INFO]: generated content for /mods/modmenu-11.0.3.jar
+[13:18:45] [AutoModpackCreation-3/INFO]: generated content for /mods/lambdynamiclights-4.8.6+1.21.1.jar
+[13:18:45] [AutoModpackCreation-12/INFO]: generated content for /mods/XaerosWorldMap_1.39.12_Fabric_1.21.jar
+[13:18:45] [AutoModpackCreation-7/INFO]: generated content for /mods/Stoneworks-v21.1.0-1.21.1-Fabric.jar
+[13:18:45] [AutoModpackCreation-5/INFO]: generated content for /mods/veinminer-enchant-2.3.0.jar
+[13:18:45] [AutoModpackCreation-2/INFO]: generated content for /mods/entityculling-fabric-1.9.3-mc1.21.1.jar
+[13:18:45] [AutoModpackCreation-11/INFO]: generated content for /mods/DiagonalWalls-v21.1.2-1.21.1-Fabric.jar
+[13:18:45] [AutoModpackCreation-13/INFO]: generated content for /mods/geckolib-fabric-1.21.1-4.8.2.jar
+[13:18:45] [AutoModpackCreation-3/INFO]: generated content for /mods/EasyMagic-v21.1.4-1.21.1-Fabric.jar
+[13:18:45] [AutoModpackCreation-9/INFO]: generated content for /mods/cloth-config-15.0.140-fabric.jar
+[13:18:45] [AutoModpackCreation-12/INFO]: generated content for /mods/YungsBetterNetherFortresses-1.21.1-Fabric-3.1.5.jar
+[13:18:45] [AutoModpackCreation-9/INFO]: generated content for /mods/trinkets-3.10.0.jar
+[13:18:45] [AutoModpackCreation-3/INFO]: generated content for /mods/silk-all-1.10.7.jar
+[13:18:45] [AutoModpackCreation-7/INFO]: generated content for /mods/moonlight-1.21-2.26.5-fabric.jar
+[13:18:45] [AutoModpackCreation-5/INFO]: generated content for /mods/sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar
+[13:18:45] [AutoModpackCreation-3/INFO]: generated content for /mods/LeavesBeGone-v21.1.0-1.21.1-Fabric.jar
+[13:18:45] [AutoModpackCreation-2/INFO]: generated content for /mods/Xaeros_Minimap_25.2.10_Fabric_1.21.jar
+[13:18:45] [AutoModpackCreation-2/INFO]: generated content for /mods/durabilitytooltip-1.1.6-fabric-mc1.21.jar
+[13:18:45] [AutoModpackCreation-11/INFO]: generated content for /mods/RoughlyEnoughItems-16.0.799-fabric.jar
+[13:18:45] [AutoModpackCreation-2/INFO]: generated content for /mods/TradingPost-v21.1.1-1.21.1-Fabric.jar
+[13:18:45] [AutoModpackCreation-3/INFO]: generated content for /mods/YungsBetterDungeons-1.21.1-Fabric-5.1.4.jar
+[13:18:45] [AutoModpackCreation-11/INFO]: generated content for /mods/Clumps-fabric-1.21.1-19.0.0.1.jar
+[13:18:45] [AutoModpackCreation-9/INFO]: generated content for /mods/Terralith_1.21.x_v2.5.8.jar
+[13:18:45] [AutoModpackCreation-11/INFO]: generated content for /mods/DiagonalWindows-v21.1.1-1.21.1-Fabric.jar
+[13:18:45] [AutoModpackCreation-7/INFO]: generated content for /mods/fabric-api-0.116.7+1.21.1.jar
+[13:18:45] [AutoModpackCreation-12/INFO]: generated content for /mods/iris-fabric-1.8.8+mc1.21.1.jar
+[13:18:45] [AutoModpackCreation-10/INFO]: generated content for /mods/DiagonalFences-v21.1.1-1.21.1-Fabric.jar
+[13:18:45] [AutoModpackCreation-7/INFO]: generated content for /mods/ferritecore-7.0.2-hotfix-fabric.jar
+[13:18:45] [AutoModpackCreation-5/INFO]: generated content for /mods/accessories-fabric-1.1.0-beta.52+1.21.1.jar
+[13:18:45] [AutoModpackCreation-9/INFO]: generated content for /mods/VisualWorkbench-v21.1.1-1.21.1-Fabric.jar
+[13:18:45] [AutoModpackCreation-5/INFO]: generated content for /mods/YungsBetterWitchHuts-1.21.1-Fabric-4.1.1.jar
+[13:18:45] [AutoModpackCreation-9/INFO]: generated content for /mods/supermartijn642configlib-1.1.8-fabric-mc1.21.jar
+[13:18:45] [AutoModpackCreation-3/INFO]: generated content for /mods/sophisticatedstorage-1.21.1-1.3.7.8.135.jar
+[13:18:45] [AutoModpackCreation-11/INFO]: generated content for /mods/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar
+[13:18:45] [AutoModpackCreation-10/INFO]: generated content for /mods/MouseTweaks-fabric-mc1.21-2.26.jar
+[13:18:45] [AutoModpackCreation-12/INFO]: generated content for /mods/sodium-fabric-0.6.13+mc1.21.1.jar
+[13:18:45] [AutoModpackCreation-12/INFO]: generated content for /mods/Nullscape_1.21.x_v1.2.14.jar
+[13:18:45] [AutoModpackCreation-10/INFO]: generated content for /mods/modernfix-fabric-5.25.1+mc1.21.1.jar
+[13:18:45] [AutoModpackCreation-5/INFO]: generated content for /mods/YungsBetterOceanMonuments-1.21.1-Fabric-4.1.2.jar
+[13:18:45] [AutoModpackCreation-7/INFO]: generated content for /mods/sophisticatedcore-1.21.1-1.2.9.20.164.jar
+[13:18:45] [AutoModpackCreation-10/INFO]: generated content for /mods/YungsBetterJungleTemples-1.21.1-Fabric-3.1.2.jar
+[13:18:45] [AutoModpackCreation-8/INFO]: generated content for /mods/YungsCaveBiomes-1.21.1-Fabric-3.1.1.jar
+[13:18:45] [AutoModpackCreation-8/INFO]: generated content for /mods/XaeroZoomout-Fabric-1.21-2.0.0.jar
+[13:18:45] [AutoModpackCreation-10/INFO]: generated content for /mods/YungsBetterDesertTemples-1.21.1-Fabric-4.1.5.jar
+[13:18:45] [AutoModpackCreation-10/INFO]: generated content for /mods/ImmediatelyFast-Fabric-1.6.7+1.21.1.jar
+[13:18:45] [AutoModpackCreation-4/INFO]: generated content for /mods/YungsCaveBiomes-1.21.1-Fabric-3.1.1 (1).jar
+[13:18:45] [AutoModpackCreation-8/INFO]: generated content for /mods/YungsApi-1.21.1-Fabric-5.1.6.jar
+[13:18:45] [AutoModpackCreation-4/INFO]: generated content for /mods/cobblemon-additions-4.0.1.jar
+[13:18:45] [AutoModpackCreation-4/INFO]: generated content for /mods/sound-physics-remastered-fabric-1.21.1-1.4.10.jar
+[13:18:45] [AutoModpackCreation-8/INFO]: generated content for /mods/DistantHorizons-2.3.6-b-1.21.1-fabric-neoforge.jar
+[13:18:45] [AutoModpackCreation-8/INFO]: generated content for /mods/EasyAnvils-v21.1.0-1.21.1-Fabric.jar
+[13:18:45] [AutoModpackCreation-6/INFO]: generated content for /mods/Cobblemon-fabric-1.7.0+1.21.1.jar
+[13:18:45] [AutoModpackCreation-6/INFO]: generated content for /mods/TerraBlender-fabric-1.21.1-4.1.0.8.jar
+[13:18:45] [AutoModpackCreation-6/INFO]: generated content for /mods/continuity-3.0.0+1.21.jar
+[13:18:45] [AutoModpackCreation-6/INFO]: generated content for /mods/mega_showdown-fabric-1.2+1.7+1.21.1.jar
+[13:18:45] [main/INFO]: Modpack generated! took 234ms
+[13:18:45] [main/INFO]: AutoModpack launched! took 266ms
+[13:18:45] [main/INFO]: Reflections took 31 ms to scan 1 urls, producing 0 keys and 0 values
+[13:18:45] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 0 keys and 0 values
+[13:18:45] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 2 values
+[13:18:45] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[13:18:45] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[13:18:45] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[13:18:45] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[13:18:45] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[13:18:45] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[13:18:45] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 3 values
+[13:18:45] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[13:18:45] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[13:18:45] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[13:18:45] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[13:18:45] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[13:18:45] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[13:18:45] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[13:18:45] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[13:18:45] [main/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[13:18:45] [main/INFO]: Launching Cobblemon 1.7.0 
+[13:18:45] [main/INFO]: Booting FabricPermissionValidator, permissions will be checked using fabric-permissions-api, see https://github.com/lucko/fabric-permissions-api
+[13:18:46] [main/ERROR]: No data fixer registered for cobblemon:pokemon
+[13:18:46] [main/ERROR]: No data fixer registered for cobblemon:empty_pokeball
+[13:18:46] [main/ERROR]: No data fixer registered for cobblemon:boat
+[13:18:46] [main/ERROR]: No data fixer registered for cobblemon:chest_boat
+[13:18:46] [main/ERROR]: No data fixer registered for cobblemon:poke_bobber
+[13:18:46] [main/ERROR]: No data fixer registered for cobblemon:generic_bedrock
+[13:18:46] [main/ERROR]: No data fixer registered for cobblemon:npc
+[13:18:46] [main/INFO]: Starting the Best Spawner...
+[13:18:46] [main/INFO]: Loaded 7 spawning condition types.
+[13:18:46] [main/INFO]: Loaded 6 spawnable position types.
+[13:18:46] [main/INFO]: Loaded 3 spawn detail types.
+[13:18:46] [Cobblemon Showdown/INFO]: Starting showdown service...
+[13:18:46] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/data/moves.js
+[13:18:46] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/sim/battle-actions.js
+[13:18:46] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/sim/pokemons.js
+[13:18:46] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/data/abilities.js
+[13:18:46] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/sim/side.js
+[13:18:46] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/data/conditions.js
+[13:18:46] [Cobblemon Showdown/INFO]: Loaded fallback file: ./showdown/index.js
+[13:18:46] [Cobblemon Showdown/INFO]: All files are ready!
+[13:18:47] [Cobblemon Showdown/INFO]: Showdown has been started!
+[13:18:47] [main/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
+[13:18:47] [main/INFO]: Registered the mega_showdown:showdown/conditions registry
+[13:18:47] [main/INFO]: Registered the mega_showdown:showdown/held_items registry
+[13:18:47] [main/INFO]: Registered the mega_showdown:showdown/typecharts registry
+[13:18:47] [main/INFO]: Registered the mega_showdown:showdown/scripts registry
+[13:18:47] [main/INFO]: Registered the cobblemon:molang registry
+[13:18:47] [main/INFO]: Registered the cobblemon:species_features registry
+[13:18:47] [main/INFO]: Registered the cobblemon:global_species_features registry
+[13:18:47] [main/INFO]: Registered the cobblemon:species_feature_assignments registry
+[13:18:47] [main/INFO]: Registered the cobblemon:action_effects registry
+[13:18:47] [main/INFO]: Registered the cobblemon:moves registry
+[13:18:47] [main/INFO]: Registered the cobblemon:abilities registry
+[13:18:47] [main/INFO]: Registered the cobblemon:behaviours registry
+[13:18:47] [main/INFO]: Registered the cobblemon:species registry
+[13:18:47] [main/INFO]: Registered the cobblemon:species_additions registry
+[13:18:47] [main/INFO]: Registered the cobblemon:pokeballs registry
+[13:18:47] [main/INFO]: Registered the cobblemon:properties_tab_completion registry
+[13:18:47] [main/INFO]: Registered the cobblemon:spawn_detail_presets registry
+[13:18:47] [main/INFO]: Registered the cobblemon:spawn_rules registry
+[13:18:47] [main/INFO]: Registered the cobblemon:mechanics registry
+[13:18:47] [main/INFO]: Registered the cobblemon:bag_items registry
+[13:18:47] [main/INFO]: Registered the cobblemon:held_items registry
+[13:18:47] [main/INFO]: Registered the cobblemon:dialogues registry
+[13:18:47] [main/INFO]: Registered the cobblemon:natural_materials registry
+[13:18:47] [main/INFO]: Registered the cobblemon:fossils registry
+[13:18:47] [main/INFO]: Registered the cobblemon:npc_preset registry
+[13:18:47] [main/INFO]: Registered the cobblemon:npc registry
+[13:18:47] [main/INFO]: Registered the cobblemon:dex_entries registry
+[13:18:47] [main/INFO]: Registered the cobblemon:dex_entry_additions registry
+[13:18:47] [main/INFO]: Registered the cobblemon:dexes registry
+[13:18:47] [main/INFO]: Registered the cobblemon:dex_additions registry
+[13:18:47] [main/INFO]: Registered the cobblemon:cosmetic_items registry
+[13:18:47] [main/INFO]: Registered the cobblemon:callbacks registry
+[13:18:47] [main/INFO]: Registered the cobblemon:unlockable_pc_box_wallpapers registry
+[13:18:47] [main/INFO]: Registered the cobblemon:marks registry
+[13:18:47] [main/INFO]: Registered the cobblemon:starters registry
+[13:18:47] [main/INFO]: Registered the cobblemon:spawn_pool_world registry
+[13:18:47] [main/INFO]: Registered the cobblemon:pokerods registry
+[13:18:47] [main/INFO]: Registered the cobblemon:berries registry
+[13:18:47] [main/INFO]: Registered the cobblemon:seasonings registry
+[13:18:47] [main/INFO]: Registered the cobblemon:pokemon_interactions registry
+[13:18:47] [main/INFO]: Registered the cobblemon:spawn_bait_effects registry
+[13:18:47] [main/INFO]: Registered the cobblemon:ride_settings registry
+[13:18:48] [main/WARN]: Resource root not found: ../build/resources/main/data
+[13:18:48] [main/INFO]: Datagen: LootTableScanner disabled (set enableLootScan=true to enable).
+[13:18:48] [main/INFO]: Mod compatibility check results: {cobblenav=false, sophisticatedbackpacks=true, waystones=false, cobbledollars=false, travelersbackpack=false}
+[13:18:48] [main/INFO]: Cobblemon Additions mod initialized successfully.
+[13:18:48] [main/INFO]: Constructing common components for diagonalblocks:main
+[13:18:48] [main/INFO]: Constructing common components for diagonalfences:main
+[13:18:48] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 19ms
+[13:18:48] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 19ms
+[13:18:48] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 49ms
+[13:18:48] [main/INFO]: Constructing common components for diagonalwalls:main
+[13:18:48] [main/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=0.0,ExtensionWidth=3.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 12ms
+[13:18:48] [main/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=0.0,ExtensionWidth=3.0,NodeTop=0.0,ExtensionBottom=0.0,ExtensionTop=14.0] took 34ms
+[13:18:48] [main/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=4.0,ExtensionWidth=3.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=14.0] took 41ms
+[13:18:48] [main/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=4.0,ExtensionWidth=3.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 28ms
+[13:18:48] [main/INFO]: Constructing common components for diagonalwindows:main
+[13:18:48] [main/INFO]: Constructing shapes for DiagonalStainedGlassPaneBlock[NodeWidth=1.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 11ms
+[13:18:48] [main/INFO]: Constructing common components for easyanvils:main
+[13:18:48] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
+[13:18:48] [main/INFO]: Constructing common components for easymagic:main
+[13:18:48] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[13:18:48] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
+[13:18:48] [main/INFO]: Constructing common components for leavesbegone:main
+[13:18:48] [main/INFO]: Registering C2S receiver with id mega_showdown:mega_evo
+[13:18:48] [main/INFO]: Registering C2S receiver with id mega_showdown:ultra_burst
+[13:18:48] [main/INFO]: Registering C2S receiver with id mega_showdown:secret_sword_move_swap
+[13:18:48] [main/INFO]: Loaded config moonlight-common.json
+[13:18:48] [main/INFO]: it seems to react to redstone
+[13:18:48] [main/INFO]: Constructing common components for puzzleslib:main
+[13:18:48] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[13:18:48] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[13:18:48] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[13:18:48] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedbackpacks] for REIPlugin
+[13:18:48] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedcore] for REIPlugin
+[13:18:48] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedstorage] for REIPlugin
+[13:18:48] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[13:18:48] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[13:18:48] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedbackpacks] for REIServerPlugin
+[13:18:48] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedcore] for REIServerPlugin
+[13:18:48] [main/INFO]: [REI] Registered plugin provider REIServerCompat [sophisticatedstorage] for REIServerPlugin
+[13:18:48] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[13:18:48] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[13:18:48] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[13:18:48] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[13:18:48] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[13:18:48] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[13:18:48] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[13:18:48] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[13:18:48] [main/INFO]: Initializing Silk
+[13:18:49] [main/ERROR]: No data fixer registered for 
+[13:18:49] [main/INFO]: Constructing common components for stoneworks:main
+[13:18:49] [main/INFO]: Dispatching loading event for config stoneworks-common.toml
+[13:18:49] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[13:18:49] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[13:18:49] [main/INFO]: Registered region yungscavebiomes:overworld to index 1 for type OVERWORLD
+[13:18:49] [main/INFO]: Constructing common components for tradingpost:main
+[13:18:49] [main/INFO]: Veinminer Version: 2.4.2 (fabric)
+[13:18:49] [main/INFO]: Veinminer-Enchantment Version: 2.5.0 (fabric)
+[13:18:49] [main/INFO]: Constructing common components for visualworkbench:main
+[13:18:49] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
+[13:18:49] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[13:18:49] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[13:18:49] [main/INFO]: Reflections took 13 ms to scan 1 urls, producing 5 keys and 66 values
+[13:18:49] [main/INFO]: Reflections took 13 ms to scan 1 urls, producing 5 keys and 66 values
+[13:18:49] [main/INFO]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
+[13:18:50] [main/INFO]: Distant Horizons, Version: 2.3.6-b
+[13:18:50] [main/INFO]: Registering Fabric Server Events
+[13:18:50] [main/INFO]: Distant Horizons server Initialized, adding event subscribers...
+[13:18:50] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[13:18:50] [main/INFO]: Initialized block sets in 13ms
+[13:18:50] [main/INFO]: Initialized color sets in 19ms
+[13:18:50] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[13:18:50] [DefaultDispatcher-worker-3/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
+[13:18:50] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[13:18:50] [main/ERROR]: Registry 'moonlight:world_saved_data_type' was empty after loading
+[13:18:50] [main/ERROR]: Registry 'moonlight:custom_map_data_types' was empty after loading
+[13:18:50] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:18:51] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/bca:general/kitchen - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: cobblemon:braised_vivichoke
+[13:18:52] [Worker-Main-14/ERROR]: Couldn't load tag cobblemon:recipe_filters/colour_seasoning as it is missing following references: #cobblemon:recipe_filters/poke_puff_seasoner (from cobblemon)
+[13:18:52] [main/INFO]: Loaded 3147 recipes
+[13:18:52] [main/INFO]: Loaded 3315 advancements
+[13:18:52] [main/INFO]: Loaded 10 server scripts and 1 client scripts
+[13:18:54] [main/INFO]: Loaded 936 moves
+[13:18:54] [main/INFO]: Loaded 314 abilities
+[13:18:54] [main/INFO]: Loaded 47 entity behaviours
+[13:18:55] [main/INFO]: Finished additions
+[13:18:55] [cobblemon Datafixer Bootstrap/INFO]: 4 Datafixer optimizations took 27 milliseconds
+[13:18:56] [main/INFO]: Loaded 1025 Pokémon species
+[13:18:56] [main/INFO]: Loaded 27 spawn detail presets.
+[13:18:56] [main/INFO]: Starting dummy Showdown battle to force it to pre-load data.
+[13:18:56] [main/INFO]: Imported 266 held item IDs from showdown
+[13:18:56] [main/INFO]: Loaded 15 fossils
+[13:18:56] [main/ERROR]: Invalid path in mod resource-pack cobblemon: cobblemon:dex_entry_additions/README.md, ignoring
+[13:18:56] [main/ERROR]: Invalid path in mod resource-pack cobblemon: cobblemon:dex_additions/README.md, ignoring
+[13:18:56] [main/INFO]: Loaded 6 callbacks and 0 client callbacks
+[13:18:56] [main/INFO]: Loaded 168 marks
+[13:18:57] [main/INFO]: Loaded 70 berries
+[13:18:57] [main/INFO]: Loaded 137 Pokémon interaction sets
+[13:18:57] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[13:18:57] [main/INFO]: [REI] REIPlugin starting main-reload for START.
+[13:18:57] [main/INFO]: [REI] Plugins (6):
+[13:18:57] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[13:18:57] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[13:18:57] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
+[13:18:57] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
+[13:18:57] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
+[13:18:57] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[13:18:57] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[13:18:57] [main/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[13:18:57] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
+[13:18:57] [main/INFO]: [REI] Plugins (6):
+[13:18:57] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[13:18:57] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[13:18:57] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
+[13:18:57] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
+[13:18:57] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
+[13:18:57] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[13:18:57] [main/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[13:18:57] [main/INFO]: [REI] REIPlugin finished post-reload for START in 1.110 ms, totaling 26.62 ms.
+[13:18:57] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 452.6 μs, totaling 3.633 ms.
+[13:18:57] [main/INFO]: [REI] ----------------------------------------
+[13:18:57] [main/INFO]: [REI] REIPlugin starting main-reload for END.
+[13:18:57] [main/INFO]: [REI] Plugins (6):
+[13:18:57] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[13:18:57] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[13:18:57] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
+[13:18:57] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
+[13:18:57] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
+[13:18:57] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[13:18:57] [main/INFO]: [REI] ----------------------------------------
+[13:18:57] [main/INFO]: [REI] ----------------------------------------
+[13:18:57] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
+[13:18:57] [main/INFO]: [REI] Plugins (6):
+[13:18:57] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[13:18:57] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[13:18:57] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedstorage]
+[13:18:57] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedcore]
+[13:18:57] [main/INFO]: [REI]  - (0.00) REIServerCompat of REIServerCompat [sophisticatedbackpacks]
+[13:18:57] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[13:18:57] [main/INFO]: [REI] ----------------------------------------
+[13:18:57] [main/INFO]: [REI] REIPlugin finished post-reload for END in 856.0 μs, totaling 19.92 ms.
+[13:18:57] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 707.2 μs, totaling 5.352 ms.
+[13:18:57] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: cobblemon:mint_leaf, mega_showdown:rotom_appliances
+[13:18:57] [main/WARN]: Initial datapack load took 7.349 s
+[13:18:58] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[13:18:58] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[13:18:58] [main/INFO]: Applied 2614 biome modifications to 165 of 165 new biomes in 33.94 ms
+[13:18:58] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
+[13:18:58] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
+[13:18:58] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[13:18:58] [Server thread/INFO]: Dispatching loading event for config leavesbegone-server.toml
+[13:18:58] [Server thread/INFO]: Dispatching loading event for config tradingpost-server.toml
+[13:18:58] [Server thread/INFO]: Initialising config for [DistantHorizons]
+[13:18:58] [Server thread/INFO]: [DistantHorizons] Config initialised
+[13:18:58] [Server thread/INFO]: Running Delayed setup...
+[13:18:58] [Server thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
+[13:18:58] [Server thread/INFO]: Checking for Distant Horizons update
+[13:18:58] [Server thread/INFO]: Distant Horizons already up to date.
+[13:18:58] [Server thread/INFO]: Distant Horizons server Initialized at 
+[13:18:58] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
+[13:18:58] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[13:18:58] [Server thread/INFO]: Loading properties
+[13:18:58] [Server thread/INFO]: Default game type: SURVIVAL
+[13:18:58] [Server thread/INFO]: Generating keypair
+[13:18:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:18:58] [Server thread/INFO]: Using epoll channel type
+[13:18:58] [Server thread/INFO]: Preparing level "world"
+[13:18:58] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[./world/data]...
+[13:18:58] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[13:18:58] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
+[13:18:58] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[13:18:58] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[./world/DIM1/data]...
+[13:18:58] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[13:18:58] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[13:18:58] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/data;./world/DIM1/data)]].
+[13:18:58] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[./world/DIM-1/data]...
+[13:18:58] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[13:18:58] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[13:18:58] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/data;./world/DIM-1/data;./world/DIM1/data)]].
+[13:18:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:18:58] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[13:18:59] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[13:18:59] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[13:18:59] [Server thread/INFO]: Time elapsed: 1036 ms
+[13:18:59] [Server thread/INFO]: Done (1.461s)! For help, type "help"
+[13:19:00] [Server thread/WARN]: Certificate fingerprint: 4675556bd44956a03ffbccbb3cf5862dba00818b145eee9a848a9b8f1eca427a
+[13:19:00] [Server thread/INFO]: Hosting modpack on Minecraft port
+[13:19:00] [Server thread/WARN]: Dedicated server took 21.977 seconds to load
+[13:19:00] [Server thread/ERROR]: Couldn't load server icon
 java.lang.NullPointerException: Cannot invoke "java.awt.image.BufferedImage.getWidth()" because "$$1" is null
 	at knot/net.minecraft.server.MinecraftServer.method_49387(MinecraftServer.java:874) ~[server-intermediary.jar:?]
 	at java.base/java.util.Optional.flatMap(Optional.java:289) ~[?:?]
@@ -586,330 +583,23 @@ java.lang.NullPointerException: Cannot invoke "java.awt.image.BufferedImage.getW
 	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:667) ~[server-intermediary.jar:?]
 	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[02:38:34] [Server thread/INFO]: Optimizing spawn pools...
-[02:38:35] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[02:38:35] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[02:38:35] [Server thread/INFO]: DH TerraFirmaCraft detection: false
-[02:38:35] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
-[02:38:35] [Server thread/INFO]: Batch Chunk Generator initialized
-[02:38:35] [Server thread/INFO]: Creating world gen queue
-[02:38:35] [Server thread/INFO]: Created world gen queue
-[02:38:35] [Server thread/INFO]: Set world gen queue for level [minecraft:overworld].
-[02:38:35] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
-[02:38:35] [Server thread/INFO]: Batch Chunk Generator initialized
-[02:38:35] [Server thread/INFO]: Creating world gen queue
-[02:38:35] [Server thread/INFO]: Created world gen queue
-[02:38:35] [Server thread/INFO]: Set world gen queue for level [minecraft:the_nether].
-[02:38:35] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
-[02:38:35] [Server thread/INFO]: Batch Chunk Generator initialized
-[02:38:35] [Server thread/INFO]: Creating world gen queue
-[02:38:35] [Server thread/INFO]: Created world gen queue
-[02:38:35] [Server thread/INFO]: Set world gen queue for level [minecraft:the_end].
-[02:38:35] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[02:38:35] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: BALANCED
-[02:38:35] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
-[02:38:35] [DH-ApplyConfigPresetTimer/INFO]: preset active: BALANCED
-[02:38:35] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
-[02:38:54] [User Authenticator #1/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[02:38:54] [Server thread/INFO]: RjsMc has installed AutoModpack.
-[02:38:54] [Server thread/INFO]: Sending RjsMc modpack host address: :-1
-[02:38:54] [Server thread/INFO]: RjsMc has installed whole modpack
-[02:38:55] [Server thread/INFO]: RjsMc[/96.231.192.233:56473] logged in with entity id 11 at (-399.54088801824946, 95.0, 1189.7539569976561)
-[02:38:55] [Server thread/INFO]: Sending server config values to client
-[02:38:55] [Server thread/INFO]: Player [RjsMc] joined.
-[02:38:55] [Server thread/INFO]: RjsMc joined the game
-[02:38:55] [Server thread/INFO]: Receiving client config
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/WARN]: AquiferContext is null in AquiferMixin, this should not happen!
-[02:39:03] [DH-World Gen Thread[0]/ERROR]: Failed to fetch the AquiferContext. Liquid Regions for YUNG's Better Caves may not generate properly.
-[02:39:03] [DH-World Gen Thread[0]/ERROR]: This is a mod compatibility issue. Please report it to the Better Caves GitHub issue tracker!
-[02:39:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:39:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:39:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:39:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:39:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:39:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:39:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:39:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:39:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:39:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:39:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:39:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:39:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:39:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:39:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:39:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:39:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:39:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:39:27] [DH-World Gen Thread[3]/WARN]: Empty or non-existent pool: bca:paths
-[02:39:28] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:39:59] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:39:59] [DH-World Gen Thread[3]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:00] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:00] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:00] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:00] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:00] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:00] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:00] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:00] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:01] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:paths
-[02:40:03] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:03] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:03] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:03] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:03] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:03] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:03] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:03] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:03] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:03] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:03] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:03] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:03] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:03] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:40:35] [DH-World Gen Thread[2]/WARN]: Empty or non-existent pool: bca:store_workers
-[02:40:35] [DH-World Gen Thread[2]/WARN]: Empty or non-existent pool: bca:paths
-[02:40:35] [DH-World Gen Thread[2]/WARN]: Empty or non-existent pool: bca:store_workers
-[02:40:35] [DH-World Gen Thread[2]/WARN]: Empty or non-existent pool: bca:store_workers
-[02:40:35] [DH-World Gen Thread[2]/WARN]: Empty or non-existent pool: bca:store_workers
-[02:40:35] [DH-World Gen Thread[2]/WARN]: Empty or non-existent pool: bca:store_workers
-[02:40:35] [DH-World Gen Thread[2]/WARN]: Empty or non-existent pool: bca:store_workers
-[02:40:56] [Server thread/INFO]: [RjsMc: Changed the block at -385, 87, 1205]
-[02:40:57] [Server thread/ERROR]: Unable to fill loot container in minecraft:overworld at class_2338{x=-385, y=87, z=1205} as the loot table 'bca:general/kitchen' couldn't be resolved! Please search the loot table in `latest.log` to see if there are errors in loading.
-[02:41:09] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:41:09] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:41:09] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:41:09] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:41:09] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:41:09] [DH-World Gen Thread[7]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:41:09] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:41:09] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:41:19] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:41:19] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:41:19] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:41:19] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:41:19] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:41:19] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:41:19] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:41:19] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:42:04] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:42:04] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:42:05] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:42:05] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:42:05] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:42:05] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:42:09] [DH-World Gen Thread[7]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:42:10] [DH-World Gen Thread[6]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:42:10] [DH-World Gen Thread[7]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:42:10] [DH-World Gen Thread[6]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:42:10] [DH-World Gen Thread[7]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:42:10] [DH-World Gen Thread[6]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:42:10] [Server thread/INFO]: [RjsMc: Modified block data of -385, 87, 1205]
-[02:42:17] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:store_workers
-[02:42:17] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:store_workers
-[02:42:18] [DH-World Gen Thread[0]/ERROR]: Block-attached entity at invalid position: class_2338{x=221, y=25, z=-291}
-[02:42:33] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:42:33] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:42:52] [Server thread/INFO]: [RjsMc: Changed the block at -385, 87, 1205]
-[02:42:57] [Server thread/ERROR]: Unable to fill loot container in minecraft:overworld at class_2338{x=-385, y=87, z=1205} as the loot table 'bca:general/kitchen' couldn't be resolved! Please search the loot table in `latest.log` to see if there are errors in loading.
-[02:43:46] [Server thread/INFO]: [RjsMc: Changed the block at -385, 87, 1205]
-[02:43:46] [Server thread/ERROR]: Unable to fill loot container in minecraft:overworld at class_2338{x=-385, y=87, z=1205} as the loot table 'bca:general/kitchen' couldn't be resolved! Please search the loot table in `latest.log` to see if there are errors in loading.
-[02:43:53] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:43:54] [DH-World Gen Thread[5]/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[02:43:54] [DH-World Gen Thread[5]/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[02:43:54] [DH-World Gen Thread[5]/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[02:44:01] [DH-World Gen Thread[6]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:02] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:02] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:02] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:02] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:02] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:02] [DH-World Gen Thread[7]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:02] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:02] [DH-World Gen Thread[6]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:25] [User Authenticator #2/INFO]: UUID of player _fishbagel_ is 4bb02718-493b-4181-8fda-8e73ff51fa93
-[02:44:26] [Server thread/INFO]: _fishbagel_ has installed AutoModpack.
-[02:44:26] [Server thread/INFO]: Sending _fishbagel_ modpack host address: :-1
-[02:44:28] [Server thread/INFO]: _fishbagel_ has installed whole modpack
-[02:44:29] [Server thread/INFO]: _fishbagel_[/108.51.200.244:53113] logged in with entity id 945 at (-387.4025447963375, 80.0, 1288.0743189869117)
-[02:44:29] [Server thread/INFO]: Sending server config values to client
-[02:44:29] [Server thread/INFO]: Player [_fishbagel_] joined.
-[02:44:29] [Server thread/INFO]: _fishbagel_ joined the game
-[02:44:29] [Server thread/INFO]: Receiving client config
-[02:44:33] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: bca:paths
-[02:44:44] [Server thread/WARN]: Entity PokemonEntity['Litten'/1010, l='ServerLevel[world]', x=-385.48, y=80.00, z=1291.40, removed=DISCARDED] wasn't found in section class_4076{x=-25, y=5, z=80} (destroying due to DISCARDED)
-[02:44:45] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:44:45] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:44:45] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:44:45] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:44:45] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:44:45] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:44:45] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:44:45] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:44:45] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:44:45] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:44:45] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:44:45] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:44:45] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:44:45] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:44:45] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:44:45] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:44:45] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:44:45] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:stores/store_worker
-[02:44:46] [DH-World Gen Thread[4]/ERROR]: Block-attached entity at invalid position: class_2338{x=-71, y=38, z=-596}
-[02:44:46] [DH-World Gen Thread[4]/ERROR]: Block-attached entity at invalid position: class_2338{x=-66, y=37, z=-596}
-[02:44:46] [DH-World Gen Thread[4]/ERROR]: Block-attached entity at invalid position: class_2338{x=-66, y=31, z=-592}
-[02:44:46] [DH-World Gen Thread[4]/ERROR]: Block-attached entity at invalid position: class_2338{x=-69, y=31, z=-590}
-[02:44:46] [DH-World Gen Thread[4]/ERROR]: Block-attached entity at invalid position: class_2338{x=-67, y=31, z=-590}
-[02:44:46] [DH-World Gen Thread[4]/ERROR]: Block-attached entity at invalid position: class_2338{x=-66, y=37, z=-592}
-[02:44:46] [DH-World Gen Thread[4]/ERROR]: Block-attached entity at invalid position: class_2338{x=-67, y=37, z=-590}
-[02:44:46] [DH-World Gen Thread[4]/ERROR]: Block-attached entity at invalid position: class_2338{x=-68, y=38, z=-586}
-[02:44:46] [DH-World Gen Thread[4]/ERROR]: Block-attached entity at invalid position: class_2338{x=-71, y=38, z=-592}
-[02:44:46] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:46] [DH-World Gen Thread[2]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:46] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:46] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:46] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:46] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:46] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:46] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:46] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:46] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:47] [DH-World Gen Thread[7]/WARN]: Empty or non-existent pool: bca:paths
-[02:44:48] [DH-World Gen Thread[7]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:48] [Server thread/INFO]: RjsMc was pricked to death
-[02:44:48] [DH-World Gen Thread[7]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:48] [DH-World Gen Thread[7]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:48] [DH-World Gen Thread[7]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:48] [DH-World Gen Thread[7]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:48] [DH-World Gen Thread[7]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:44:49] [Server thread/WARN]: RjsMc moved too quickly! 25.22747870108293,26.0,-43.19977434938528
-[02:45:46] [Server thread/INFO]: RjsMc has made the advancement [Half-Century]
-[02:46:01] [DH-World Gen Thread[2]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:46:01] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:46:01] [DH-World Gen Thread[2]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:46:01] [DH-World Gen Thread[6]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:46:01] [DH-World Gen Thread[2]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:46:02] [Server thread/INFO]: _fishbagel_ has made the advancement [Doing my Part]
-[02:46:02] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:46:12] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:46:12] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:46:12] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:46:12] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:46:12] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:46:12] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:46:13] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:46:14] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:46:15] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:46:16] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:46:37] [Server thread/ERROR]: Unable to fill loot container in minecraft:overworld at class_2338{x=-371, y=97, z=1290} as the loot table 'bca:general/kitchen' couldn't be resolved! Please search the loot table in `latest.log` to see if there are errors in loading.
-[02:46:37] [Server thread/ERROR]: Unable to fill loot container in minecraft:overworld at class_2338{x=-374, y=97, z=1290} as the loot table 'bca:general/kitchen' couldn't be resolved! Please search the loot table in `latest.log` to see if there are errors in loading.
-[02:47:00] [Server thread/ERROR]: Unable to fill loot container in minecraft:overworld at class_2338{x=-361, y=103, z=1325} as the loot table 'bca:general/kitchen' couldn't be resolved! Please search the loot table in `latest.log` to see if there are errors in loading.
-[02:47:08] [Server thread/ERROR]: Unable to fill loot container in minecraft:overworld at class_2338{x=-371, y=104, z=1313} as the loot table 'bca:general/kitchen' couldn't be resolved! Please search the loot table in `latest.log` to see if there are errors in loading.
-[02:47:09] [Server thread/ERROR]: Unable to fill loot container in minecraft:overworld at class_2338{x=-371, y=104, z=1314} as the loot table 'bca:general/kitchen' couldn't be resolved! Please search the loot table in `latest.log` to see if there are errors in loading.
-[02:47:27] [Server thread/INFO]: RjsMc has made the advancement [Researcher Recruit]
-[02:48:08] [Server thread/ERROR]: Unable to fill loot container in minecraft:overworld at class_2338{x=-366, y=103, z=1334} as the loot table 'bca:general/kitchen' couldn't be resolved! Please search the loot table in `latest.log` to see if there are errors in loading.
-[02:48:33] [Server thread/INFO]: RjsMc fell from a high place
-[02:49:01] [DH-World Gen Thread[7]/WARN]: Empty or non-existent pool: minecraft:
-[02:49:01] [DH-World Gen Thread[7]/WARN]: Empty or non-existent pool: minecraft:
-[02:49:32] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:49:32] [DH-World Gen Thread[6]/WARN]: Empty or non-existent pool: minecraft:
-[02:49:32] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:49:32] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:49:32] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:49:32] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:49:32] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:49:36] [Server thread/WARN]: Entity PokemonEntity['Noibat'/1948, l='ServerLevel[world]', x=-371.04, y=110.06, z=1322.09, removed=DISCARDED] wasn't found in section class_4076{x=-24, y=6, z=82} (destroying due to DISCARDED)
-[02:50:00] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:50:01] [DH-World Gen Thread[6]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:50:01] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:50:07] [DH-World Gen Thread[7]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:50:16] [Server thread/WARN]: Entity PokemonEntity['Noibat'/1955, l='ServerLevel[world]', x=-371.49, y=110.06, z=1322.52, removed=DISCARDED] wasn't found in section class_4076{x=-24, y=6, z=82} (destroying due to DISCARDED)
-[02:50:21] [Server thread/WARN]: Entity PokemonEntity['Noibat'/2029, l='ServerLevel[world]', x=-376.48, y=110.00, z=1320.72, removed=DISCARDED] wasn't found in section class_4076{x=-24, y=6, z=82} (destroying due to DISCARDED)
-[02:50:22] [Server thread/WARN]: Entity PokemonEntity['Charmander'/1834, l='ServerLevel[world]', x=-376.56, y=110.00, z=1319.92, removed=DISCARDED] wasn't found in section class_4076{x=-24, y=6, z=82} (destroying due to DISCARDED)
-[02:50:26] [DH-World Gen Thread[4]/WARN]: Empty or non-existent pool: bca:paths
-[02:50:28] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:50:36] [Server thread/INFO]: [RjsMc: Gave 64 [Oak Log] to RjsMc]
-[02:50:42] [DH-World Gen Thread[7]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:50:55] [Server thread/INFO]: RjsMc fell from a high place
-[02:51:06] [DH-World Gen Thread[0]/WARN]: Empty or non-existent pool: minecraft:
-[02:52:15] [DH-World Gen Thread[7]/WARN]: Empty or non-existent pool: minecraft:
-[02:52:15] [DH-World Gen Thread[7]/WARN]: Empty or non-existent pool: minecraft:
-[02:52:17] [DH-World Gen Thread[1]/WARN]: Empty or non-existent pool: minecraft:
-[02:52:18] [DH-World Gen Thread[3]/WARN]: Empty or non-existent pool: minecraft:
-[02:53:07] [Server thread/INFO]: [RjsMc: Set own game mode to Creative Mode]
-[02:54:10] [Server thread/INFO]: [RjsMc: Set own game mode to Survival Mode]
-[02:55:00] [Server thread/INFO]: RjsMc has made the advancement [Basic Healing]
-[02:56:00] [Server thread/INFO]: RjsMc was pricked to death
-[02:56:01] [Server thread/WARN]: RjsMc moved too quickly! 30.78176133530775,29.0625,77.99974163067168
-[02:56:01] [Server thread/WARN]: RjsMc moved too quickly! 30.78176133530775,29.0625,77.99974163067168
-[02:56:01] [Server thread/WARN]: RjsMc moved too quickly! 30.78176133530775,29.0625,77.99974163067168
-[02:56:01] [Server thread/WARN]: RjsMc moved too quickly! 30.78176133530775,29.0625,77.99974163067168
-[02:57:49] [DH-World Gen Thread[7]/WARN]: Empty or non-existent pool: bca:paths
-[02:57:49] [DH-World Gen Thread[7]/WARN]: Empty or non-existent pool: bca:store_workers
-[02:57:50] [DH-World Gen Thread[7]/WARN]: Empty or non-existent pool: bca:store_workers
-[02:57:50] [DH-World Gen Thread[7]/WARN]: Empty or non-existent pool: bca:store_workers
-[02:57:50] [DH-World Gen Thread[7]/WARN]: Empty or non-existent pool: bca:store_workers
-[02:57:50] [DH-World Gen Thread[7]/WARN]: Empty or non-existent pool: bca:store_workers
-[02:57:52] [DH-World Gen Thread[6]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:57:53] [DH-World Gen Thread[2]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:57:53] [DH-World Gen Thread[6]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:57:53] [DH-World Gen Thread[6]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:57:53] [DH-World Gen Thread[6]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:57:53] [DH-World Gen Thread[6]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:08] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:08] [DH-World Gen Thread[2]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:08] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:09] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:09] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:09] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:09] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:09] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:09] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:09] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:19] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:19] [DH-World Gen Thread[4]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:19] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:19] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:21] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:21] [DH-World Gen Thread[1]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:21] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:21] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:21] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:21] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:21] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:21] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:39] [DH-World Gen Thread[3]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:39] [DH-World Gen Thread[7]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:39] [DH-World Gen Thread[3]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:39] [DH-World Gen Thread[7]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:39] [DH-World Gen Thread[3]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:39] [DH-World Gen Thread[7]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:58:59] [DH-World Gen Thread[2]/INFO]: WorldGen requiring minecraft:structure_starts outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:59:00] [Server thread/WARN]: Entity PokemonEntity['Noibat'/3389, l='ServerLevel[world]', x=-370.40, y=110.00, z=1321.24, removed=DISCARDED] wasn't found in section class_4076{x=-24, y=6, z=82} (destroying due to DISCARDED)
-[02:59:01] [DH-World Gen Thread[5]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
-[02:59:18] [Netty Epoll Server IO #2/INFO]: Player [RjsMc] disconnected.
-[02:59:18] [Server thread/INFO]: RjsMc lost connection: Disconnected
-[02:59:18] [Server thread/INFO]: RjsMc left the game
-[03:02:04] [Netty Epoll Server IO #5/INFO]: Player [_fishbagel_] disconnected.
-[03:02:04] [Server thread/INFO]: _fishbagel_ lost connection: Disconnected
-[03:02:04] [Server thread/INFO]: _fishbagel_ left the game
+[13:19:00] [Server thread/INFO]: Optimizing spawn pools...
+[13:19:00] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[13:19:00] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[13:19:00] [Server thread/INFO]: DH TerraFirmaCraft detection: false
+[13:19:00] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[13:19:00] [Server thread/INFO]: Batch Chunk Generator initialized
+[13:19:00] [Server thread/INFO]: Creating world gen queue
+[13:19:00] [Server thread/INFO]: Created world gen queue
+[13:19:00] [Server thread/INFO]: Set world gen queue for level [minecraft:overworld].
+[13:19:00] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[13:19:00] [Server thread/INFO]: Batch Chunk Generator initialized
+[13:19:00] [Server thread/INFO]: Creating world gen queue
+[13:19:00] [Server thread/INFO]: Created world gen queue
+[13:19:00] [Server thread/INFO]: Set world gen queue for level [minecraft:the_nether].
+[13:19:00] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[13:19:00] [Server thread/INFO]: Batch Chunk Generator initialized
+[13:19:00] [Server thread/INFO]: Creating world gen queue
+[13:19:00] [Server thread/INFO]: Created world gen queue
+[13:19:00] [Server thread/INFO]: Set world gen queue for level [minecraft:the_end].
+[13:19:00] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!

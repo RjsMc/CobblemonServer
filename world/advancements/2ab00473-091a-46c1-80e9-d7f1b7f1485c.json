@@ -31,18 +31,29 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2025-11-26 19:08:31 -0500",
+      "minecraft:mushroom_fields": "2025-11-26 19:10:41 -0500",
+      "minecraft:forest": "2025-11-23 01:55:07 -0500",
+      "minecraft:taiga": "2025-11-23 01:57:20 -0500",
+      "minecraft:deep_ocean": "2025-11-26 17:51:14 -0500",
+      "minecraft:eroded_badlands": "2025-11-23 00:06:40 -0500",
+      "minecraft:desert": "2025-11-23 00:03:34 -0500",
+      "minecraft:ocean": "2025-11-26 17:34:35 -0500",
+      "minecraft:jungle": "2025-11-26 18:03:02 -0500",
+      "minecraft:birch_forest": "2025-11-26 19:31:38 -0500",
+      "minecraft:old_growth_spruce_taiga": "2025-11-26 19:28:36 -0500",
+      "minecraft:deep_lukewarm_ocean": "2025-11-26 19:09:14 -0500",
       "minecraft:badlands": "2025-11-23 00:05:54 -0500",
       "minecraft:savanna_plateau": "2025-11-23 01:49:11 -0500",
       "minecraft:beach": "2025-11-22 23:56:53 -0500",
       "minecraft:stony_peaks": "2025-11-23 01:10:07 -0500",
-      "minecraft:forest": "2025-11-23 01:55:07 -0500",
-      "minecraft:taiga": "2025-11-23 01:57:20 -0500",
       "minecraft:sparse_jungle": "2025-11-22 23:40:15 -0500",
       "minecraft:river": "2025-11-22 23:56:18 -0500",
       "minecraft:lukewarm_ocean": "2025-11-23 01:52:39 -0500",
       "minecraft:stony_shore": "2025-11-23 01:51:51 -0500",
-      "minecraft:eroded_badlands": "2025-11-23 00:06:40 -0500",
-      "minecraft:desert": "2025-11-23 00:03:34 -0500",
+      "minecraft:snowy_plains": "2025-11-26 17:52:53 -0500",
+      "minecraft:old_growth_birch_forest": "2025-11-26 19:28:32 -0500",
+      "minecraft:grove": "2025-11-26 19:28:43 -0500",
       "minecraft:savanna": "2025-11-23 01:10:02 -0500",
       "minecraft:plains": "2025-11-23 01:53:46 -0500"
     },
@@ -377,8 +388,13 @@
     "criteria": {
       "bread": "2025-11-23 00:33:31 -0500",
       "cooked_rabbit": "2025-11-23 01:25:22 -0500",
+      "cooked_chicken": "2025-11-26 17:00:38 -0500",
       "potato": "2025-11-23 00:19:56 -0500",
       "rabbit": "2025-11-23 00:56:41 -0500",
+      "sweet_berries": "2025-11-26 17:25:57 -0500",
+      "cooked_beef": "2025-11-26 16:52:24 -0500",
+      "baked_potato": "2025-11-26 17:10:26 -0500",
+      "golden_carrot": "2025-11-26 17:02:41 -0500",
       "carrot": "2025-11-23 00:04:34 -0500"
     },
     "done": false
@@ -786,7 +802,8 @@
       "poke_ball": "2025-11-23 00:10:46 -0500",
       "azure_ball": "2025-11-23 00:10:14 -0500",
       "verdant_ball": "2025-11-23 00:10:46 -0500",
-      "citrine_ball": "2025-11-23 02:47:32 -0500"
+      "citrine_ball": "2025-11-23 02:47:32 -0500",
+      "ultra_ball": "2025-11-26 19:16:53 -0500"
     },
     "done": false
   },
@@ -837,9 +854,11 @@
       "obtain_full_heal": "2025-11-23 00:10:48 -0500",
       "obtain_ice_heal": "2025-11-23 00:10:46 -0500",
       "obtain_burn_heal": "2025-11-23 00:31:26 -0500",
+      "obtain_potion": "2025-11-26 17:34:40 -0500",
       "obtain_awakening": "2025-11-23 00:10:47 -0500",
       "obtain_antidote": "2025-11-23 02:55:03 -0500",
       "obtain_paralyze_heal": "2025-11-23 02:54:53 -0500",
+      "obtain_super_potion": "2025-11-26 17:34:44 -0500",
       "obtain_max_potion": "2025-11-23 02:57:48 -0500"
     },
     "done": false
@@ -1205,7 +1224,9 @@
       "minecraft:enderman": "2025-11-23 01:44:49 -0500",
       "minecraft:piglin_brute": "2025-11-23 01:27:49 -0500",
       "minecraft:spider": "2025-11-23 01:51:10 -0500",
-      "minecraft:zombie": "2025-11-23 00:19:39 -0500"
+      "minecraft:zombie": "2025-11-23 00:19:39 -0500",
+      "minecraft:husk": "2025-11-26 18:04:02 -0500",
+      "minecraft:bogged": "2025-11-26 16:59:30 -0500"
     },
     "done": false
   },
@@ -3407,9 +3428,63 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/redstone_torch": {
+  "lootr:50loot": {
     "criteria": {
-      "has_redstone": "2025-11-23 02:57:15 -0500"
+      "opened_50": "2025-11-23 02:45:46 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:craft_pokedex": {
+    "criteria": {
+      "requirement": "2025-11-23 02:47:27 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/misc/pokedex_green": {
+    "criteria": {
+      "has_pokedex": "2025-11-23 02:47:27 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/misc/pokedex_white": {
+    "criteria": {
+      "has_pokedex": "2025-11-23 02:47:27 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/misc/pokedex_pink": {
+    "criteria": {
+      "has_pokedex": "2025-11-23 02:47:27 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/misc/citrine_rod": {
+    "criteria": {
+      "has_ball": "2025-11-23 02:47:32 -0500"
+    },
+    "done": false
+  },
+  "sophisticatedstorage:recipes/misc/oak_chest_from_vanilla_chest": {
+    "criteria": {
+      "has_vanilla_chest": "2025-11-23 02:52:24 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/diamond_shulker_from_diamond_chest": {
+    "criteria": {
+      "has_diamond_chest": "2025-11-23 02:53:31 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/double_netherite_chest": {
+    "criteria": {
+      "has_diamond_chest": "2025-11-23 02:53:31 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/netherite_chest": {
+    "criteria": {
+      "has_diamond_chest": "2025-11-23 02:53:31 -0500"
     },
     "done": true
   },
@@ -3431,69 +3506,15 @@
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/diamond_shulker_from_diamond_chest": {
-    "criteria": {
-      "has_diamond_chest": "2025-11-23 02:53:31 -0500"
-    },
-    "done": true
-  },
-  "cobblemon:recipes/evolution/electirizer": {
-    "criteria": {
-      "has_redstone": "2025-11-23 02:57:15 -0500"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/stack_upgrade_tier_5": {
-    "criteria": {
-      "has_stack_upgrade_tier_4": "2025-11-23 02:54:00 -0500"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/double_netherite_chest": {
-    "criteria": {
-      "has_diamond_chest": "2025-11-23 02:53:31 -0500"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_4": {
-    "criteria": {
-      "has_stack_upgrade_tier_3": "2025-11-23 02:53:43 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/compass": {
-    "criteria": {
-      "has_redstone": "2025-11-23 02:57:15 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/copper_block": {
     "criteria": {
       "has_copper_ingot": "2025-11-23 02:53:33 -0500"
     },
     "done": true
   },
-  "cobblemon:recipes/held/magnet": {
-    "criteria": {
-      "has_redstone": "2025-11-23 02:57:15 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/brush": {
     "criteria": {
       "has_copper_ingot": "2025-11-23 02:53:33 -0500"
-    },
-    "done": true
-  },
-  "lootr:50loot": {
-    "criteria": {
-      "opened_50": "2025-11-23 02:45:46 -0500"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/backpack_stack_upgrade_tier_3_from_storage_stack_upgrade_tier_4": {
-    "criteria": {
-      "has_storage_stack_upgrade": "2025-11-23 02:54:00 -0500"
     },
     "done": true
   },
@@ -3509,81 +3530,9 @@
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/oak_chest_from_vanilla_chest": {
-    "criteria": {
-      "has_vanilla_chest": "2025-11-23 02:52:24 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_block": {
-    "criteria": {
-      "has_redstone": "2025-11-23 02:57:15 -0500"
-    },
-    "done": true
-  },
-  "cobblemon:craft_remedy": {
-    "criteria": {
-      "check_inv": "2025-11-23 02:55:00 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/spectral_arrow": {
-    "criteria": {
-      "has_glowstone_dust": "2025-11-23 02:57:15 -0500"
-    },
-    "done": true
-  },
   "mega_showdown:recipes/misc/rotom_fan": {
     "criteria": {
       "has_copper": "2025-11-23 02:53:33 -0500"
-    },
-    "done": true
-  },
-  "cobblemon:recipes/campfire_pot/green_aprijuice": {
-    "criteria": {
-      "has_apricorn": "2025-11-23 02:56:40 -0500"
-    },
-    "done": false
-  },
-  "cobblemon:recipes/misc/ancient_poke_rod": {
-    "criteria": {
-      "has_ball": "2025-11-23 02:57:34 -0500"
-    },
-    "done": false
-  },
-  "minecraft:recipes/tools/clock": {
-    "criteria": {
-      "has_redstone": "2025-11-23 02:57:15 -0500"
-    },
-    "done": true
-  },
-  "cobblemon:craft_pokedex": {
-    "criteria": {
-      "requirement": "2025-11-23 02:47:27 -0500"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/storage_stack_upgrade_tier_4_from_backpack_stack_upgrade_tier_3": {
-    "criteria": {
-      "has_backpack_stack_upgrade": "2025-11-23 02:53:43 -0500"
-    },
-    "done": true
-  },
-  "cobblemon:recipes/agriculture/green_apricorn_smelt_to_dye": {
-    "criteria": {
-      "has_apricorn": "2025-11-23 02:56:40 -0500"
-    },
-    "done": true
-  },
-  "cobblemon:recipes/misc/pokedex_green": {
-    "criteria": {
-      "has_pokedex": "2025-11-23 02:47:27 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/note_block": {
-    "criteria": {
-      "has_redstone": "2025-11-23 02:57:15 -0500"
     },
     "done": true
   },
@@ -3593,27 +3542,9 @@
     },
     "done": true
   },
-  "cobblemon:recipes/misc/pokedex_white": {
-    "criteria": {
-      "has_pokedex": "2025-11-23 02:47:27 -0500"
-    },
-    "done": true
-  },
-  "cobblemon:craft_ancient_balls": {
-    "criteria": {
-      "ancient_poke_ball": "2025-11-23 02:57:34 -0500"
-    },
-    "done": false
-  },
   "cobblemon:recipes/held/cell_battery": {
     "criteria": {
       "has_copper": "2025-11-23 02:53:33 -0500"
-    },
-    "done": true
-  },
-  "cobblemon:recipes/consumables/fine_remedy": {
-    "criteria": {
-      "has_remedy": "2025-11-23 02:55:00 -0500"
     },
     "done": true
   },
@@ -3623,15 +3554,51 @@
     },
     "done": true
   },
-  "cobblemon:recipes/misc/citrine_rod": {
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_4": {
     "criteria": {
-      "has_ball": "2025-11-23 02:47:32 -0500"
+      "has_stack_upgrade_tier_3": "2025-11-23 02:53:43 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_stack_upgrade_tier_4_from_backpack_stack_upgrade_tier_3": {
+    "criteria": {
+      "has_backpack_stack_upgrade": "2025-11-23 02:53:43 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/stack_upgrade_tier_5": {
+    "criteria": {
+      "has_stack_upgrade_tier_4": "2025-11-23 02:54:00 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/backpack_stack_upgrade_tier_3_from_storage_stack_upgrade_tier_4": {
+    "criteria": {
+      "has_storage_stack_upgrade": "2025-11-23 02:54:00 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:craft_remedy": {
+    "criteria": {
+      "check_inv": "2025-11-23 02:55:00 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/consumables/fine_remedy": {
+    "criteria": {
+      "has_remedy": "2025-11-23 02:55:00 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/campfire_pot/green_aprijuice": {
+    "criteria": {
+      "has_apricorn": "2025-11-23 02:56:40 -0500"
     },
     "done": false
   },
-  "minecraft:recipes/redstone/dropper": {
+  "cobblemon:recipes/agriculture/green_apricorn_smelt_to_dye": {
     "criteria": {
-      "has_redstone": "2025-11-23 02:57:15 -0500"
+      "has_apricorn": "2025-11-23 02:56:40 -0500"
     },
     "done": true
   },
@@ -3641,27 +3608,69 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/glowstone": {
+  "cobblemon:recipes/blocks/campfire_pot_green": {
+    "criteria": {
+      "has_green_apricorn": "2025-11-23 02:56:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-11-23 02:57:15 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/evolution/electirizer": {
+    "criteria": {
+      "has_redstone": "2025-11-23 02:57:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-11-23 02:57:15 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/magnet": {
+    "criteria": {
+      "has_redstone": "2025-11-23 02:57:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-11-23 02:57:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2025-11-23 02:57:15 -0500"
     },
     "done": true
   },
-  "cobblemon:recipes/misc/pokedex_pink": {
+  "minecraft:recipes/tools/clock": {
     "criteria": {
-      "has_pokedex": "2025-11-23 02:47:27 -0500"
+      "has_redstone": "2025-11-23 02:57:15 -0500"
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/netherite_chest": {
+  "minecraft:recipes/redstone/note_block": {
     "criteria": {
-      "has_diamond_chest": "2025-11-23 02:53:31 -0500"
+      "has_redstone": "2025-11-23 02:57:15 -0500"
     },
     "done": true
   },
-  "cobblemon:recipes/blocks/campfire_pot_green": {
+  "minecraft:recipes/redstone/dropper": {
     "criteria": {
-      "has_green_apricorn": "2025-11-23 02:56:40 -0500"
+      "has_redstone": "2025-11-23 02:57:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-11-23 02:57:15 -0500"
     },
     "done": true
   },
@@ -3670,6 +3679,817 @@
       "has_redstone": "2025-11-23 02:57:15 -0500"
     },
     "done": true
+  },
+  "cobblemon:recipes/misc/ancient_poke_rod": {
+    "criteria": {
+      "has_ball": "2025-11-23 02:57:34 -0500"
+    },
+    "done": false
+  },
+  "cobblemon:craft_ancient_balls": {
+    "criteria": {
+      "ancient_poke_ball": "2025-11-23 02:57:34 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2025-11-26 16:46:22 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/crafting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-11-26 16:49:02 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/smelting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-11-26 16:49:02 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/jukebox_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-11-26 16:49:02 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/decoration_table": {
+    "criteria": {
+      "has_upgrade_base": "2025-11-26 16:49:02 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/feeding_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-11-26 16:49:02 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/stack_upgrade_tier_1": {
+    "criteria": {
+      "has_upgrade_base": "2025-11-26 16:49:02 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/compacting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-11-26 16:49:02 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/stonecutter_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-11-26 16:49:02 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/smoking_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-11-26 16:49:02 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/blasting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-11-26 16:49:02 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/hopper_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-11-26 16:49:02 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/compression_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-11-26 16:49:02 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/void_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-11-26 16:49:02 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/pickup_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-11-26 16:49:02 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/stack_downgrade_tier_3": {
+    "criteria": {
+      "has_upgrade_base": "2025-11-26 16:49:02 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/stack_downgrade_tier_2": {
+    "criteria": {
+      "has_upgrade_base": "2025-11-26 16:49:02 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/stack_downgrade_tier_1": {
+    "criteria": {
+      "has_upgrade_base": "2025-11-26 16:49:02 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/filter_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-11-26 16:49:02 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/backpack_crafting_upgrade_from_storage_crafting_upgrade": {
+    "criteria": {
+      "has_storage_upgrade": "2025-11-26 16:49:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_glazed_terracotta": {
+    "criteria": {
+      "has_red_terracotta": "2025-11-26 16:55:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2025-11-26 16:55:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-11-26 16:55:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-11-26 16:55:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-11-26 16:55:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-11-26 16:55:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-11-26 16:55:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-11-26 16:55:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-11-26 16:55:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-11-26 16:55:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-11-26 16:55:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-11-26 16:55:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-11-26 16:55:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-11-26 16:55:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-11-26 16:55:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-11-26 16:55:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-11-26 16:55:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-11-26 16:55:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2025-11-26 16:55:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2025-11-26 16:55:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-11-26 16:56:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-11-26 16:56:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-11-26 16:56:20 -0500"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/misc/n_solarizer": {
+    "criteria": {
+      "has_sunstone": "2025-11-26 16:56:52 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/sun_stone_block": {
+    "criteria": {
+      "has_sun_stone": "2025-11-26 16:56:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall": {
+    "criteria": {
+      "has_tuff_bricks": "2025-11-26 16:59:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2025-11-26 16:59:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs": {
+    "criteria": {
+      "has_tuff_bricks": "2025-11-26 16:59:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2025-11-26 16:59:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2025-11-26 16:59:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2025-11-26 16:59:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2025-11-26 16:59:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab": {
+    "criteria": {
+      "has_tuff_bricks": "2025-11-26 16:59:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_grate": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-11-26 16:59:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_waxed_copper_block": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-11-26 16:59:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_chiseled_copper_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-11-26 16:59:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/waxed_copper_bulb": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-11-26 16:59:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-11-26 16:59:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_slab_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-11-26 16:59:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-11-26 16:59:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-11-26 16:59:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_grate_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-11-26 16:59:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-11-26 16:59:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-11-26 16:59:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-11-26 17:00:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "criteria": {
+      "under_lock_and_key": "2025-11-26 17:02:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bolt_armor_trim_smithing_template": {
+    "criteria": {
+      "has_bolt_armor_trim_smithing_template": "2025-11-26 17:02:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bolt_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-11-26 17:02:18 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/campfire_pot/leek_and_potato_stew_in_campfire_pot": {
+    "criteria": {
+      "has_potato": "2025-11-26 17:03:33 -0500",
+      "has_crafting_recipe": "2025-11-26 17:03:33 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/consumables/leek_and_potato_stew": {
+    "criteria": {
+      "has_potato": "2025-11-26 17:03:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-11-26 17:05:04 -0500"
+    },
+    "done": true
+  },
+  "tradingpost:recipes/decorations/trading_post": {
+    "criteria": {
+      "has_emerald": "2025-11-26 17:05:04 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_calcite_slab_from_calcite_or_mossy_cobbled_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite_or_mossy_cobbled_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_tile_stairs_from_calcite_or_calcite_tiles_stonecutting": {
+    "criteria": {
+      "has_calcite_or_calcite_tiles": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_calcite_stairs_from_calcite_or_cobbled_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite_or_cobbled_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_plate_slab_from_calcite_or_calcite_plates_stonecutting": {
+    "criteria": {
+      "has_calcite_or_calcite_plates": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_brick_stairs_from_calcite_or_calcite_bricks_stonecutting": {
+    "criteria": {
+      "has_calcite_or_calcite_bricks": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_brick_slab_from_calcite_or_calcite_bricks_stonecutting": {
+    "criteria": {
+      "has_calcite_or_calcite_bricks": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_calcite_wall_from_calcite_or_polished_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite_or_polished_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_calcite_wall_from_calcite_or_cobbled_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite_or_cobbled_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_plate_stairs_from_calcite_or_calcite_plates_stonecutting": {
+    "criteria": {
+      "has_calcite_or_calcite_plates": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_calcite_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_shingle_slab_from_calcite_or_calcite_shingles_stonecutting": {
+    "criteria": {
+      "has_calcite_or_calcite_shingles": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_paver_stairs_from_calcite_or_calcite_pavers_stonecutting": {
+    "criteria": {
+      "has_calcite_or_calcite_pavers": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_tile_wall_from_calcite_or_calcite_tiles_stonecutting": {
+    "criteria": {
+      "has_calcite_or_calcite_tiles": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_calcite_bricks_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/chiseled_calcite_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_plates_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_calcite_tiles_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_shingle_wall_from_calcite_or_calcite_shingles_stonecutting": {
+    "criteria": {
+      "has_calcite_or_calcite_shingles": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_brick_wall_from_calcite_or_calcite_bricks_stonecutting": {
+    "criteria": {
+      "has_calcite_or_calcite_bricks": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_tile_slab_from_calcite_or_calcite_tiles_stonecutting": {
+    "criteria": {
+      "has_calcite_or_calcite_tiles": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_calcite_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_calcite_brick_stairs_from_calcite_or_mossy_calcite_bricks_stonecutting": {
+    "criteria": {
+      "has_calcite_or_mossy_calcite_bricks": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_plate_wall_from_calcite_or_calcite_plates_stonecutting": {
+    "criteria": {
+      "has_calcite_or_calcite_plates": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_bricks_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_calcite_brick_wall_from_calcite_or_mossy_calcite_bricks_stonecutting": {
+    "criteria": {
+      "has_calcite_or_mossy_calcite_bricks": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_tiles_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_calcite_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_paver_wall_from_calcite_or_calcite_pavers_stonecutting": {
+    "criteria": {
+      "has_calcite_or_calcite_pavers": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_calcite_wall_from_calcite_or_mossy_cobbled_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite_or_mossy_cobbled_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_pavers_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_calcite_stairs_from_calcite_or_polished_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite_or_polished_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_shingles_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_calcite_stairs_from_calcite_or_mossy_cobbled_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite_or_mossy_cobbled_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_calcite_slab_from_calcite_or_cobbled_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite_or_cobbled_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_pillar_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_paver_slab_from_calcite_or_calcite_pavers_stonecutting": {
+    "criteria": {
+      "has_calcite_or_calcite_pavers": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_calcite_bricks_from_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_calcite_brick_slab_from_calcite_or_mossy_calcite_bricks_stonecutting": {
+    "criteria": {
+      "has_calcite_or_mossy_calcite_bricks": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_calcite_slab_from_calcite_or_polished_calcite_stonecutting": {
+    "criteria": {
+      "has_calcite_or_polished_calcite": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/calcite_shingle_stairs_from_calcite_or_calcite_shingles_stonecutting": {
+    "criteria": {
+      "has_calcite_or_calcite_shingles": "2025-11-26 17:11:26 -0500"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/misc/tera_orb": {
+    "criteria": {
+      "has_amethyst": "2025-11-26 17:11:42 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/evolution/upgrade": {
+    "criteria": {
+      "has_amethyst": "2025-11-26 17:11:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-11-26 17:11:42 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/scope_lens": {
+    "criteria": {
+      "has_shard": "2025-11-26 17:11:42 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/zoom_lens": {
+    "criteria": {
+      "has_shard": "2025-11-26 17:11:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-11-26 17:11:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-11-26 17:11:42 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/clear_amulet": {
+    "criteria": {
+      "has_amethyst": "2025-11-26 17:11:42 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/wide_lens": {
+    "criteria": {
+      "has_shard": "2025-11-26 17:11:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-11-26 17:11:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/who_needs_rockets": {
+    "criteria": {
+      "who_needs_rockets": "2025-11-26 17:14:09 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/evolution/whipped_dream": {
+    "criteria": {
+      "has_sweet_berry": "2025-11-26 17:25:55 -0500"
+    },
+    "done": true
+  },
+  "betterdungeons:all_dungeons": {
+    "criteria": {
+      "in_better_spider_dungeon": "2025-11-26 17:32:29 -0500"
+    },
+    "done": false
+  },
+  "betterdungeons:spider_dungeon": {
+    "criteria": {
+      "in_better_spider_dungeon": "2025-11-26 17:32:29 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:brew_potion": {
+    "criteria": {
+      "check_inv": "2025-11-26 17:34:40 -0500"
+    },
+    "done": true
+  },
+  "lootr:100loot": {
+    "criteria": {
+      "opened_100": "2025-11-26 17:34:52 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/campfire_pot/exp_candy_xl": {
+    "criteria": {
+      "has_candy": "2025-11-26 17:35:16 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:ride_pokemon": {
+    "criteria": {
+      "check_inv": "2025-11-26 17:43:57 -0500"
+    },
+    "done": true
+  },
+  "betterdeserttemples:temple_entry": {
+    "criteria": {
+      "in_better_desert_temple": "2025-11-26 18:02:58 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/loaded_dice": {
+    "criteria": {
+      "has_ball": "2025-11-26 19:16:58 -0500"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/misc/ultra_rod": {
+    "criteria": {
+      "has_ball": "2025-11-26 19:16:53 -0500"
+    },
+    "done": false
   },
   "DataVersion": 3955
 }

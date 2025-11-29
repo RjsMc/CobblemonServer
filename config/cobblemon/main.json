@@ -95,7 +95,7 @@
   "rightingDelay": -1.0,
   "disableRoll": false,
   "displayControlSeconds": 0,
-  "infiniteRideStamina": false,
+  "infiniteRideStamina": true,
   "rememberRidingCamera": false,
   "enableDebugKeys": false,
   "despawnerNearDistance": 32.0,
